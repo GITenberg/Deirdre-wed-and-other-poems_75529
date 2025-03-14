@@ -1,0 +1,2548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Deirdre Wed | Project Gutenberg</title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+       body { margin-left: 8%; margin-right: 10%; }
+       h1 { text-align: center; font-weight: bold; font-size: xx-large; }
+       h2 { text-align: center; font-weight: bold; font-size: x-large; }
+       h3 { text-align: center; font-weight: bold; font-size: large; }
+       .pageno { right: 1%; font-size: x-small; background-color: inherit; color: silver; 
+               text-indent: 0em; text-align: right; position: absolute; 
+               border: thin solid silver; padding: .1em .2em; font-style: normal; 
+               font-variant: normal; font-weight: normal; text-decoration: none; }
+       p { text-indent: 0; margin-top: 0.5em; margin-bottom: 0.5em; text-align: justify; }
+       sup { vertical-align: top; font-size: 0.6em; }
+       .sc { font-variant: small-caps; }
+       .large { font-size: large; }
+       .xlarge { font-size: x-large; }
+       .small { font-size: small; }
+       .lg-container-b { text-align: center; }
+       .x-ebookmaker .lg-container-b { clear: both; }
+       .linegroup { display: inline-block; text-align: justify; }
+       .x-ebookmaker .linegroup { display: block; margin-left: 1.5em; }
+       .linegroup .group { margin: 1em auto; }
+       .linegroup .line { text-indent: -3em; padding-left: 3em; }
+       div.linegroup > :first-child { margin-top: 0; }
+       .linegroup .in10 { padding-left: 8.0em; }
+       .linegroup .in12 { padding-left: 9.0em; }
+       .linegroup .in2 { padding-left: 4.0em; }
+       .linegroup .in20 { padding-left: 13.0em; }
+       .linegroup .in34 { padding-left: 20.0em; }
+       .linegroup .in4 { padding-left: 5.0em; }
+       .linegroup .in6 { padding-left: 6.0em; }
+       .linegroup .in8 { padding-left: 7.0em; }
+       .ul_1 li {padding-left: 1em; text-indent: -1em; }
+       ul.ul_1 {padding-left: 0; margin-left: 2.78%; margin-top: .5em;
+               margin-bottom: .5em; list-style-type: disc; }
+       div.footnote > :first-child { margin-top: 1em; }
+       div.footnote p { text-indent: 1em; margin-top: 0.25em; margin-bottom: 0.25em; }
+       div.pbb { page-break-before: always; }
+       hr.pb { border: none; border-bottom: thin solid; margin-bottom: 1em; }
+       .x-ebookmaker hr.pb { display: none; }
+       .chapter { clear: both; page-break-before: always; }
+       .figcenter { clear: both; max-width: 100%; margin: 2em auto; text-align: center; }
+       .figcenter img { max-width: 100%; height: auto; }
+       .id001 { width:50%; }
+       .x-ebookmaker  .id001 { margin-left:25%; width:50%; }
+       .ig001 { width:100%; } 
+       .table0 { margin: auto; margin-top: 2em; }
+       .nf-center { text-align: center; }
+       .nf-center-c0 { text-align: justify; margin: 0.5em 0; }
+       .c000 { margin-top: 0.5em; margin-bottom: 0.5em; }
+       .c001 { margin-top: 4em; }
+       .c002 { margin-top: 1em; }
+       .c003 { margin-top: 4em; font-size: .9em; }
+       .c004 { page-break-before: always; margin-top: 4em; }
+       .c005 { margin-top: 2em; }
+       .c006 { page-break-before:auto; margin-top: 4em; }
+       .c007 { vertical-align: top; text-align: justify; text-indent: -1em;
+               padding-left: 1em; padding-right: 1em; }
+       .c008 { vertical-align: bottom; text-align: right; }
+       .c009 { page-break-before: auto; margin-top: 2em; }
+       .c010 { font-size: 80%; }
+       .c011 { margin-top: 1em; font-size: .9em; }
+       .c012 { page-break-before: always; margin-top: 2em; }
+       .c013 { font-size: 200%; }
+       .c014 { text-decoration: none; }
+       .c015 { text-indent: 1em; margin-top: 0.25em; margin-bottom: 0.25em; }
+       .c016 { margin-top: 2em; font-size: .9em; }
+       .c017 { margin-top: 2em; text-indent: 1em; margin-bottom: 0.25em; }
+       .c018 { vertical-align: top; text-align: center; padding-right: 1em; }
+       .c019 { vertical-align: top; text-align: center; }
+       .c020 { vertical-align: top; text-align: right; padding-right: 1em; }
+       .c021 { vertical-align: top; text-align: justify; padding-right: 1em; }
+       .c022 { vertical-align: top; text-align: justify; }
+       div.tnotes { padding-left:1em;padding-right:1em;background-color:#E3E4FA;
+              border:thin solid silver; margin:2em 10% 0 10%; font-family: Georgia, serif;
+               clear: both; }
+       .covernote { visibility: hidden; display: none; }
+       div.tnotes p { text-align: justify; }
+       .x-ebookmaker .covernote { visibility: visible; display: block; }
+       .figcenter {font-size: .9em; page-break-inside: avoid; max-width: 100%;
+               max-height: 100%; }
+       h1 {line-height: 150%; }
+       .footnote {font-size: .9em; }
+       div.footnote p {text-indent: 2em; margin-bottom: .5em; }
+       .chapter  { clear: both; page-break-before: always; }
+       body {font-family: Georgia, serif; text-align: justify; }
+       table {font-size: .9em; padding: 1.5em .5em 1em; page-break-inside: avoid;
+               clear: both; }
+       div.titlepage {text-align: center; page-break-before: always;
+               page-break-after: always; }
+       div.titlepage p {text-align: center; text-indent: 0em; font-weight: bold;
+               line-height: 1.5; margin-top: 3em; }
+       .ph1 { text-indent: 0em; font-weight: bold; font-size: xx-large;
+               margin: .67em auto; page-break-before: always; }
+       .ph2 { text-indent: 0em; font-weight: bold; font-size: x-large; margin: .75em auto;
+               page-break-before: always; }
+       .x-ebookmaker p.dropcap:first-letter { float: left; }
+    </style>
+  </head>
+  <body>   
+<div style='text-align:center'>*** START OF THE PROJECT GUTENBERG EBOOK 75529 ***</div>
+
+<div class='tnotes covernote'>
+
+<p class='c000'><strong>Transcriber’s Note:</strong></p>
+
+<p class='c000'>New original cover art included with this eBook is granted to the public domain.</p>
+
+</div>
+
+<div class='chapter ph1'>
+
+<div class='nf-center-c0'>
+<div class='nf-center c001'>
+    <div>DEIRDRE WED</div>
+    <div class='c002'>AND OTHER POEMS</div>
+  </div>
+</div>
+
+</div>
+
+<div class='lg-container-b c003'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'>WILT THOU ADVENTURE ON THE GULFS OF MORNING?</div>
+      <div class='line in2'>COME, THEN, AND SUFFER THESE</div>
+      <div class='line'>SELF-MUTTERING CITIES THAT HAVE LOST HORIZONS</div>
+      <div class='line in2'>TO SINK BEHIND THE MOUNTAINS AND THE TREES.</div>
+    </div>
+  </div>
+</div>
+
+<div class='titlepage'>
+
+<div>
+  <h1 class='c004'>DEIRDRE WED<br> <span class='large'>AND OTHER POEMS</span></h1>
+</div>
+
+<div class='nf-center-c0'>
+<div class='nf-center c005'>
+    <div>BY</div>
+    <div class='c002'><span class='xlarge'>HERBERT TRENCH</span></div>
+  </div>
+</div>
+
+<div  class='figcenter id001'>
+<img src='images/i_title.jpg' alt='[Logo]' class='ig001'>
+</div>
+
+<div class='nf-center-c0'>
+  <div class='nf-center'>
+    <div>METHUEN &#38; CO.</div>
+    <div>36 ESSEX STREET, STRAND</div>
+    <div>LONDON</div>
+    <div>1901</div>
+  </div>
+</div>
+
+</div>
+
+<div class='nf-center-c0'>
+<div class='nf-center c001'>
+    <div><span class='small'><em>Copyrighted in the United States of America</em></span></div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_v'>v</span>
+  <h2 class='c006'>CONTENTS</h2>
+</div>
+
+<table class='table0'>
+  <tr>
+    <td class='c007' colspan='2'><span class='sc'>Deirdre Wed</span>—</td>
+    <td class='c008'>&#160;</td>
+  </tr>
+  <tr>
+    <th class='c007'></th>
+    <th class='c007'>&#160;</th>
+    <th class='c008'>PAGE</th>
+  </tr>
+  <tr>
+    <td class='c007'>&#160;</td>
+    <td class='c007'>1. <em>The Chanters</em></td>
+    <td class='c008'><a href='#Page_3'>3</a></td>
+  </tr>
+  <tr>
+    <td class='c007'>&#160;</td>
+    <td class='c007'>2. <em>Fintan</em></td>
+    <td class='c008'><a href='#Page_5'>5</a></td>
+  </tr>
+  <tr>
+    <td class='c007'>&#160;</td>
+    <td class='c007'>3. <em>Cir</em></td>
+    <td class='c008'><a href='#Page_16'>16</a></td>
+  </tr>
+  <tr>
+    <td class='c007'>&#160;</td>
+    <td class='c007'>4. <em>Urmael</em></td>
+    <td class='c008'><a href='#Page_31'>31</a></td>
+  </tr>
+  <tr>
+    <td class='c007'>&#160;</td>
+    <td class='c007'>5. <em>Fintan</em></td>
+    <td class='c008'><a href='#Page_53'>53</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>Ode on a Silver Birch</td>
+    <td class='c008'><a href='#Page_59'>59</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>A Charge</td>
+    <td class='c008'><a href='#Page_64'>64</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>Song for the Funeral of a Boy</td>
+    <td class='c008'><a href='#Page_66'>66</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>Come, let us make love deathless</td>
+    <td class='c008'><a href='#Page_69'>69</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>Claviers at Night</td>
+    <td class='c008'><a href='#Page_70'>70</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>The Man Digging</td>
+    <td class='c008'><a href='#Page_75'>75</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>Schiehallion</td>
+    <td class='c008'><a href='#Page_76'>76</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>The Shell</td>
+    <td class='c008'><a href='#Page_78'>78</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>The Rock of Cloud</td>
+    <td class='c008'><a href='#Page_79'>79</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>She comes not when Noon is on the roses</td>
+    <td class='c008'><a href='#Page_85'>85</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>The Night</td>
+    <td class='c008'><a href='#Page_86'>86</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>Maurya’s Song</td>
+    <td class='c008'><a href='#Page_88'>88</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>Tired with the day’s monotony</td>
+    <td class='c008'><a href='#Page_90'>90</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'><span class='pageno' id='Page_vi'>vi</span>You were stay’d in heart on heaven</td>
+    <td class='c008'><a href='#Page_91'>91</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>The Bloom</td>
+    <td class='c008'><a href='#Page_92'>92</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>In the Roman Amphitheatre, Verona</td>
+    <td class='c008'><a href='#Page_94'>94</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>A Winter Song</td>
+    <td class='c008'><a href='#Page_95'>95</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>The Nutter</td>
+    <td class='c008'><a href='#Page_97'>97</a></td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>Shakespeare</td>
+    <td class='c008'><a href='#Page_101'>101</a></td>
+  </tr>
+  <tr>
+    <td class='c007'>&#160;</td>
+    <td class='c007'>&#160;</td>
+    <td class='c008'>&#160;</td>
+  </tr>
+  <tr>
+    <td class='c007' colspan='2'>Notes</td>
+    <td class='c008'><a href='#Page_104'>104</a></td>
+  </tr>
+</table>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_3'>3</span>
+  <h2 class='c006'>DEIRDRE WED</h2>
+</div>
+<h3 class='c009'>I<br> <span class='c010'>THE CHANTERS</span></h3>
+
+<div class='lg-container-b c011'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line in20'>I</div>
+      <div class='line'><em>I stood on the Hill of Time when the sun was fled</em></div>
+      <div class='line'><em>And my vision sought where to rest, till it knew the plains</em></div>
+      <div class='line'><em>Of my country, the Night’s harp, and the moonless bed</em></div>
+      <div class='line'><em>Of rivers and bristling forests and sea-board chains.</em></div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'>II</div>
+    </div>
+    <div class='group'>
+      <div class='line'><em>And from many a chanter’s mound—none is nameless there—</em></div>
+      <div class='line'><em>Could I hear, amid rumour eternal, the voice ascend:</em></div>
+      <div class='line'><em>With the bones of man endureth his floating hair</em></div>
+      <div class='line'><em>And the song of his spirit on earth is slow to end.</em></div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'><span class='pageno' id='Page_4'>4</span>III</div>
+    </div>
+    <div class='group'>
+      <div class='line'><em>Speak to me, speak to me, Fintan, dark in the south,</em></div>
+      <div class='line'><em>From the west Urmael, and Cir, lying under the pole,</em></div>
+      <div class='line'><em>Some chant that ye made, who never spake mouth to mouth,</em></div>
+      <div class='line'><em>But over the ridge of ages from soul to soul.</em></div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'>IV</div>
+    </div>
+    <div class='group'>
+      <div class='line'><em>And a strain came out of Dun Tulcha, the yews’ shores,</em></div>
+      <div class='line'><em>From Fintan, the elder than yews, the too old for tears,</em></div>
+      <div class='line'><em>“Let us tell him of Deirdre wed, that his heart’s doors</em></div>
+      <div class='line'><em>Resound, as when kings arrive, with the trees of spears.”</em></div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <span class='pageno' id='Page_5'>5</span>
+  <h3 class='c012'>II<br> <span class='c010'>VOICE OF FINTAN <em>out of the First Century</em>,</span></h3>
+</div>
+
+<div class='lg-container-b c011'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>O</span> Sightless and rare-singing brotherhood!</div>
+      <div class='line'>It was the night of marriage. Word had sped,</div>
+      <div class='line'>Tokens gone out to every rath and ring</div>
+      <div class='line'>And every pasture on the woody knolls</div>
+      <div class='line'>Green about Eman, of the slaughter blithe</div>
+      <div class='line'>Of sheep and boar, of badger and of stag,</div>
+      <div class='line'>Reddening the ways up to the kingly house—</div>
+      <div class='line'>Of sheep and goats and of the stintless food</div>
+      <div class='line'>That should be poured out to his beggary</div>
+      <div class='line'>By Connachar, that all time should remember</div>
+      <div class='line'>The night he wed the girl from the elf-mound.</div>
+      <div class='line'>Yonside of Assaroe the swineherd found her</div>
+      <div class='line'>Bred in a peaty hillock of the west</div>
+      <div class='line'>By some old crone. Though tribeless she and wild—</div>
+      <div class='line'>Barefoot, and in the red wool chasing cattle—</div>
+      <div class='line'>Connachar saw and took, biding his time,</div>
+      <div class='line'><span class='pageno' id='Page_6'>6</span>And let queens give her skill the winter long</div>
+      <div class='line'>In webs and brews and dyes and broideries</div>
+      <div class='line'>Up to this night of marriage.</div>
+    </div>
+    <div class='group'>
+      <div class='line in34'>Fabulous,</div>
+      <div class='line'>O friends, and dark, and mighty, was his house,</div>
+      <div class='line'>The beam-work in its dome of forest trunks—</div>
+      <div class='line'>They that had been the chantries of the dawn</div>
+      <div class='line'>To blacken songless through a thousand years:—</div>
+      <div class='line'>But never since they sway’d buds in the glens</div>
+      <div class='line'>Or spun the silken-floating violet gleam</div>
+      <div class='line'>Had those spars groan’d above so fierce a breath</div>
+      <div class='line'>Rich with the vapour of the boar. For now</div>
+      <div class='line'>Hundreds with ruddy-glistening faces ran</div>
+      <div class='line'>Jostling round the nine shadows of the blaze</div>
+      <div class='line'>And spread with skins the lengthy beds of men</div>
+      <div class='line'>And soused warm spice of herbs in ale. Here—thither—</div>
+      <div class='line'>Was rousing of age-slumber’d horns, arranging</div>
+      <div class='line'>Smooth banks throughout the house, strawing of rushes,</div>
+      <div class='line'>And cauldrons humm’d before the empty throne</div>
+      <div class='line'><span class='pageno' id='Page_7'>7</span>Set high in the shadow of the wall, and bubbled</div>
+      <div class='line'>Inaudible, impatient for the king.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>But while outside the black roof on the mount</div>
+      <div class='line'>Outwafted was the gold divinity</div>
+      <div class='line'>On swooning wings, the Lake of Pearls far down</div>
+      <div class='line'>Curdled beneath the unseen seed of rain.</div>
+      <div class='line'>Ramparts run there that misty prisoners</div>
+      <div class='line'>Bore once in bags of slime up from the lake</div>
+      <div class='line'>For barriers of the house they most abhorr’d.</div>
+      <div class='line'>And on the hill-side, where that rampart old</div>
+      <div class='line'>Dips lowest to the lakeward, Deirdre stood,</div>
+      <div class='line'>Hearing from distant ridges the faint bleat</div>
+      <div class='line'>Of lambs perturb the dusk—bleats shivering out</div>
+      <div class='line'>Like wool from thorns—there the young Deirdre stood,</div>
+      <div class='line'>Even she whose climbing beauty pales the world,</div>
+      <div class='line'>Looking far off on hills whence she was come.</div>
+      <div class='line'>Mountains that lift the holiness of Fire!</div>
+      <div class='line'>Fortitudes, ye that take the brunt of fate!</div>
+      <div class='line'>Send her across the bog a little cloud</div>
+      <div class='line'>Full of the ancient savours, full of peace,</div>
+      <div class='line'><span class='pageno' id='Page_8'>8</span>And for its drops she will hold up her heart,</div>
+      <div class='line'>O ye that stand in heaven, far removed!</div>
+      <div class='line'>She ask’d aloud, Wherefore were greens so bare</div>
+      <div class='line'>That but an hour ago shook with the thud</div>
+      <div class='line'>Of racers and of hurlers? Was it late?</div>
+      <div class='line'>The wrinkled nurse replied, Had the child eyes?</div>
+      <div class='line'>Back from a hosting and a desperate prey</div>
+      <div class='line'>For corn and mares and rustless brass and beeves</div>
+      <div class='line'>Naois, with the rest of Usnach’s sons,</div>
+      <div class='line'>Had come. She had seen him weary go but now</div>
+      <div class='line'>Heavily up the steep through the king’s hedge.</div>
+      <div class='line'>Now on the hill-top while the woman spoke</div>
+      <div class='line'>So chanced it. Hanging on the young man’s lips</div>
+      <div class='line'>The hosts sway’d round him, and above the press</div>
+      <div class='line'>Connachar, glittering all in torques of gold</div>
+      <div class='line'>And writhen armlets, listen’d from the mound</div>
+      <div class='line'>Of judgment, by the doom-oak at his door.</div>
+      <div class='line'>His beak’d helm took the sunset, but he held</div>
+      <div class='line'>His flint-red eyes in shadow and averse.</div>
+      <div class='line'>And when before him, dark as a young pine,</div>
+      <div class='line'>Unmoved the son of Usnach had told all;</div>
+      <div class='line'><span class='pageno' id='Page_9'>9</span>How half his folk had perish’d in the task</div>
+      <div class='line'>By plague or battle, and how poor a spoil</div>
+      <div class='line'>Was driven home, the king cried, Paragon!</div>
+      <div class='line'>We must go griddle cakes in honey for him,</div>
+      <div class='line'>Bring lavers of pale gold to wash off blood</div>
+      <div class='line'>So precious to us; since for many moons</div>
+      <div class='line'>This champion had forsworn the face of softness</div>
+      <div class='line'>And stretch’d his hungers to the sleety rock,</div>
+      <div class='line'>Call in the smile of women to unlatch</div>
+      <div class='line'>From his grim ribs the iron:—Faugh! Away!</div>
+      <div class='line'>Let Usnach’s sons take out again that night</div>
+      <div class='line'>Their broken clans, their piteous cattle thence;</div>
+      <div class='line'>Defeated men should see his gates no more.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>The son of Usnach turn’d and went. He ran</div>
+      <div class='line'>Down hill and to the loch to wash his wounds</div>
+      <div class='line'>Chanting—his dark curls waver’d in the wind—</div>
+      <div class='line'>Chanting he strode, tossing a brace of spears,</div>
+      <div class='line'>Lest we should think him humbled. Half-way down</div>
+      <div class='line'>The shapes of women loiter’d in the dusk</div>
+      <div class='line'>And one held backward out her arms to take</div>
+      <div class='line'><span class='pageno' id='Page_10'>10</span>The latchets of a cloak. But as Naois</div>
+      <div class='line'>Pass’d by them, closely as is heard a sigh—</div>
+      <div class='line'>His vehement flood of soul fierce for the mere—</div>
+      <div class='line'>Glancing not right nor left, O then I saw</div>
+      <div class='line'>The foot of Deirdre stricken motionless—</div>
+      <div class='line'>I saw the stiff cloak many-colour’d sink</div>
+      <div class='line'>Slow to the grass, wrinkling its blazon’d skins</div>
+      <div class='line'>Behind her.</div>
+    </div>
+    <div class='group'>
+      <div class='line in12'>Gloom suck’d in the banqueters;</div>
+      <div class='line'>And from the warmth of drinking at his feast</div>
+      <div class='line'>Connachar sent forth to the women’s house;</div>
+      <div class='line'>And heralds bade bring also the gray seer</div>
+      <div class='line'>Cathva, though Cathva had not will’d to come.</div>
+      <div class='line'>But hardly had those erranders gone out</div>
+      <div class='line'>When rose the door-hide: the gray seer came in</div>
+      <div class='line'>Noiseless. He was of fog the night hath spun,</div>
+      <div class='line'>Earth in his hair and on his meagre cheek,</div>
+      <div class='line'>Consumed and shaking, ragged as seaweed,</div>
+      <div class='line'>And to the throne he cried: “Why hast thou called</div>
+      <div class='line'>Me to carousal? Is this bed my work?</div>
+      <div class='line'><span class='pageno' id='Page_11'>11</span>Nay—too great clearness underneath the thunder</div>
+      <div class='line'>Shew’d insupportably the things to be.</div>
+      <div class='line'>Too long have I, with glamours, drops and runes,</div>
+      <div class='line'>Shook round her cabin low my skirts of storm</div>
+      <div class='line'>To shield thee from that devastating face.</div>
+      <div class='line'>My fault is only that I slew her not.</div>
+      <div class='line'>Know! it was I that, seeing those cradled limbs</div>
+      <div class='line'>Bright with disaster for the realm and thee,</div>
+      <div class='line'>Flung her away among sea-warding mountains.</div>
+      <div class='line'>But Muilréa to Ben Gorm said: <em>What is this?</em></div>
+      <div class='line'><em>What glee is this disturbs our desolation?</em></div>
+      <div class='line'><em>I hear another than the wild duck sheering</em></div>
+      <div class='line'><em>Sidelong the wind. Tall as a rush is she,</em></div>
+      <div class='line'><em>Sweet as the glitter of the netted lakes!</em></div>
+      <div class='line'>And Ben Gorm answer’d: <em>We are sick alone:</em></div>
+      <div class='line'><em>Let us distil the heavens into a child:</em></div>
+      <div class='line'><em>Yea, let our bones appear, the black goat starve</em></div>
+      <div class='line'><em>Upon our heads, yet shall this wafted seed</em></div>
+      <div class='line'><em>Superabound with ripeness we forego.</em></div>
+      <div class='line'><em>Dark space shall come to heart—silver of mists—</em></div>
+      <div class='line'><em>And thou, blue depth of gorges!</em> Connachar,</div>
+      <div class='line'><span class='pageno' id='Page_12'>12</span>I heard the plotters, but I let her live.”</div>
+      <div class='line'>And the king ask’d: “Hath any seen her there?”</div>
+      <div class='line'>And Cathva answer’d, “Till thy servant found her</div>
+      <div class='line'>She knew not that men were.” Then Connachar</div>
+      <div class='line'>Commanded yet again: “Bring us in Deirdre.”</div>
+      <div class='line'>Straightway a woman like the claw of birds,</div>
+      <div class='line'>Decrepit, bright of eye, and innocent,</div>
+      <div class='line'>Stood up beyond the fire. Her fingers play’d—</div>
+      <div class='line'>Play’d with a red stone at her breast. He ask’d</div>
+      <div class='line'>“Who gave thee, hag, the jewel of thy bosom?”</div>
+      <div class='line'>Now every drinker from the darkest stalls</div>
+      <div class='line'>Perceived the brooch was Deirdre’s, and a gift</div>
+      <div class='line'>To her from Connachar. Aghast, the woman</div>
+      <div class='line'>Fumbled at her sere breast, and wept and said:</div>
+      <div class='line'>“It was a gift to me, O Connachar,</div>
+      <div class='line'>This night.” And he, consummate lord of fear,</div>
+      <div class='line'>Our never-counsell’d lord, the Forest-odour’d,</div>
+      <div class='line'>That kept about his heart a zone of chill,</div>
+      <div class='line'>Smiled, though within the gateway of his fort</div>
+      <div class='line'>A surmise crept, as ’neath a load of rushes</div>
+      <div class='line'>Creeps in the stabber. “Fix the pin, Levarcham,</div>
+      <div class='line'><span class='pageno' id='Page_13'>13</span>For she that loses such a brooch will grieve.</div>
+      <div class='line'>Why comes not Deirdre?” “Sir, she is not yet</div>
+      <div class='line'>Duly array’d, and so is loth to come.”</div>
+      <div class='line'>O, then, believe me, all the floor was hush,</div>
+      <div class='line'>But a mad discordancy like fifes, drums, brasses,—</div>
+      <div class='line'>Bondmen of old wars on the winds released—</div>
+      <div class='line'>Shook every beam and pillar of the house;</div>
+      <div class='line'>And the king said—“Thou hear’st out of the marsh</div>
+      <div class='line'>Scream of my stallions mounting on the gale?”</div>
+      <div class='line'>And she said “Yea.” “Thou knowest round these walls</div>
+      <div class='line'>How many chariots now are tilted up?”</div>
+      <div class='line'>And she said “Yea.” “Then, woman, bring with haste</div>
+      <div class='line'>Deirdre, thy charge, into this presence now</div>
+      <div class='line'>Or limb from limb upon the pleasant grass</div>
+      <div class='line'>Those wheels shall parcel thee at dawn.” And she</div>
+      <div class='line'>Lifted her hands and closed her eyes and sang,</div>
+      <div class='line'>“She will come back, but I, I shall not bring her!</div>
+      <div class='line'>O rainbow breathed into the dreadful pine,</div>
+      <div class='line'><span class='pageno' id='Page_14'>14</span>Why art thou gone from me? Dearer to me</div>
+      <div class='line'>Than the sobbing of the cuckoo to the shore</div>
+      <div class='line'>Why art thou gone from me?” She bow’d and wept.</div>
+      <div class='line'>And Connachar came from the throne, and grasping</div>
+      <div class='line'>As if he felt no heat, the cauldron’s brims</div>
+      <div class='line'>Lean’d through its steams, watching the nurse and said,</div>
+      <div class='line'>“Will these afflicting tears bring Deirdre in?”</div>
+      <div class='line'>But she look’d up and said: “How shall I bring her?</div>
+      <div class='line'>Look now outside thy door, O Connachar!</div>
+      <div class='line'>The black oak with the vision-dripping boughs</div>
+      <div class='line'>Whose foot is in thy fathers’ blood of pride</div>
+      <div class='line'>Stagger’d as I came up in the night-blast.</div>
+      <div class='line'>In vain it stretches angers to the sky:</div>
+      <div class='line'>It cannot keep the white moon from escape</div>
+      <div class='line'>To sail the tempest; nor, O king, canst thou!”</div>
+      <div class='line'>The cheek of him that listen’d grew thrice-pale</div>
+      <div class='line'>And his thick nostrils swell’d, his half-shut eyes</div>
+      <div class='line'>Fang’d sheen, and slow dilated; stubbornly</div>
+      <div class='line'><span class='pageno' id='Page_15'>15</span>He clutch’d to steady his convulsive frame</div>
+      <div class='line'>The sea-full cauldron; quick, with efforts vast,</div>
+      <div class='line'>Upheaved and swung and pillar’d it on high—</div>
+      <div class='line'>And hoarsely bade “Take torches.” Every man</div>
+      <div class='line'>Kindled in silence at the hearth divine.</div>
+      <div class='line'>Then Connachar pour’d out upon the blaze</div>
+      <div class='line'>The flood within the vat. The roofs were fill’d</div>
+      <div class='line'>With darkness foul, with hissings and with smoke....</div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <span class='pageno' id='Page_16'>16</span>
+  <h3 class='c012'>III<br> <span class='c010'>VOICE OF CIR <em>out of a Century more remote</em>, <em>but unknown</em>,</span></h3>
+</div>
+
+<div class='lg-container-b c011'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>A</span>s a horseman breaks on a sea-gulf enwomb’d in the amber woods</div>
+      <div class='line'>Where tide is at ebb, and out on the airy brim</div>
+      <div class='line'>Glass’d upon cloud and azure stand multitudes</div>
+      <div class='line'>Of the flame-white people of gulls—to the sky-line dim</div>
+    </div>
+    <div class='group'>
+      <div class='line'>All breast to the sun,—and his hoofs expand the desolate strait</div>
+      <div class='line'>Into fevers of snows and ocean-wandering cries:</div>
+      <div class='line'>Even so, chanters divine, in some woman’s fate</div>
+      <div class='line'>At coming of him to be loved do her dreams arise.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And Deirdre the exquisite virgin pale as the coat of swans</div>
+      <div class='line'>Took the flame of love in her heart at the time of dew</div>
+      <div class='line'><span class='pageno' id='Page_17'>17</span>And clad her in ragged wool from a coffer of bronze</div>
+      <div class='line'>And walked in the chill of night, for her soul was new.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Why thick with the berries of sweetness, ye barren thorns of the spring?</div>
+      <div class='line'>I could drink up this tempest cold as a burning wine.</div>
+      <div class='line'>Why laugh, my grief, for art thou not bride of a king,</div>
+      <div class='line'>And the drinkers drink to a couch array’d to be thine?”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Where the wounded toss without sleep in the warrior’s hive of stones—</div>
+      <div class='line'>The house Bron Bhearg—she laid her cheek to the wall</div>
+      <div class='line'>And bless’d them by stealth, with no pang at the sound of groans</div>
+      <div class='line'>Having that in her rich heart which could heal them all.</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_18'>18</span>To the fortress-gate on the steep that looketh toward Creeve Roe</div>
+      <div class='line'>She fled, and spied not a sling-cast off the flare</div>
+      <div class='line'>Of a torch, and the skull fixed over the gate. And lo,</div>
+      <div class='line'>To the right hand watchmen paced by the water there.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And the shag-hair’d guard, with a mock, laid spears in their passage house</div>
+      <div class='line'>Athwart, for who was this phantom over the grass</div>
+      <div class='line'>Like a filcher of food? And Deirdre uncover’d her brows</div>
+      <div class='line'>And cried: “I am Deirdre!” And sullen they gave her the pass.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And towards Creeve Roe the dip of the cuckoo’s vale was dark</div>
+      <div class='line'>To blindness. She pluck’d her steps on that miry road</div>
+      <div class='line'>Through copses alive with storm, till at length a spark</div>
+      <div class='line'>Shew’d the forge where the smith on the heroes’ way abode.</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_19'>19</span>Now Culann the smith was wise; and leaping her spirit stirr’d</div>
+      <div class='line'>With the soft roar of his hide-wing’d fire as it soar’d:</div>
+      <div class='line'>“Has the son of Usnach pass’d?” “Yea, gone back!” With the word</div>
+      <div class='line'>He smote on a ribbon of iron to make him a sword.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And the argentine din of anvils behind her steadily dwindling</div>
+      <div class='line'>The woman fled to the wastes, till she came to a Thorn</div>
+      <div class='line'>Black, by the well of a God, with stars therein kindling</div>
+      <div class='line'>And over it rags fluttering from boughs forlorn.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And she knelt and shore with a knife a lock of her deathless hair,</div>
+      <div class='line'>And leash’d the black-shuddering branch with that tress, and pray’d:</div>
+      <div class='line'><span class='pageno' id='Page_20'>20</span>“Sloe-tree, thou snow of the darkness, O hear my prayer,</div>
+      <div class='line'>And thou, black Depth, bubble-breather, vouchsafe thine aid;</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“From Connachar’s eyes of love let me hide as a gray mole,</div>
+      <div class='line'>Sons of the earth’s profound, that no weeper spurn!</div>
+      <div class='line'>I have look’d on a face, and its kindness ravish’t my soul</div>
+      <div class='line'>But deliverance pass’d; unto you for escape I turn.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And loud as the sloven starlings in winter whistle and swarm</div>
+      <div class='line'>Came the banish’d of Usnach nigh, thrice fifty strong</div>
+      <div class='line'>As they drove from Eman away on that night of storm</div>
+      <div class='line'>And Naois spoke with his brothers behind the throng:</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_21'>21</span>“O, Aillean, O, Ardan, hark! What cry was that? For some cry</div>
+      <div class='line'>Rang on my soul’s shield; hark! hear ye it now?”</div>
+      <div class='line'>But they rein’d not their weary chariots, shouting reply</div>
+      <div class='line'>“It was fate,’twas the curs’t hag that is crouch’d on a bough!”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Tossing they drove out of sight, Naois the last, and his hood</div>
+      <div class='line'>Rain-dripping mantled the wind. One ran like a roe,</div>
+      <div class='line'>And call’d on that great name from the nightbound wood,</div>
+      <div class='line'>“Stay, long-awaited, stay! for with thee I go!”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And his brothers cried “Halt not! the host of the air makes moan</div>
+      <div class='line'>Or a gang of the wild geese going back to the lake.”</div>
+      <div class='line'>But Naois rear’d up the deep-ribb’d Srōn, “Good Srōn,</div>
+      <div class='line'>Thou and I needs must turn for our fame’s sake.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_22'>22</span>And he heard a voice: “Son of Usnach, take me to be thy wife!”</div>
+      <div class='line'>He bent from the withers, the blaze of her trembling drew</div>
+      <div class='line'>The breath from his lips and the beat from his heart’s life;</div>
+      <div class='line'>And he said, “Who art thou, Queen?” But himself knew,</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And mutter’d “Return, return, unto him that I hate. For know</div>
+      <div class='line'>Him least of all I rob, least of all that live.”</div>
+      <div class='line'>But she cried: “Am I then a colt, that ye snare from a foe</div>
+      <div class='line'>With a bridle’s shaking? I am mine own to give.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Thy beauty would crumble away in the spate of my wild nights,</div>
+      <div class='line'>And famine rake out thine embers, the lean paw</div>
+      <div class='line'>Of jeopardy find thee. He is not rich in delights</div>
+      <div class='line'>Whose harp is the gray fell in the winter’s flaw.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_23'>23</span>And she laid her arm round the neck of Srōn: “Hast heard,</div>
+      <div class='line'>Horse swollen-vein’d from battle, insulter of death—</div>
+      <div class='line'>Whose back is only a perch for the desert bird—</div>
+      <div class='line'>Whose fore-hooves fight—whose passage is torn with teeth,</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“And dost thou not shudder off the knees of a master deaf</div>
+      <div class='line'>To the grief of the weak?” And the lad, deeply-moved, rejoins</div>
+      <div class='line'>“Mount then, O woman, behind me,”—and light as a leaf</div>
+      <div class='line'>Drawing her up from his foot to the smoking loins</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Shook loose the ox-hide bridle. Even as the great gull dives</div>
+      <div class='line'>From Muilréa’s moon-glittering peak when the sky is bare,</div>
+      <div class='line'>Scraped naked by nine days’ wind, and sweepingly drives</div>
+      <div class='line'>Overnight-blurr’d gulfs and the long glens of the air,</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_24'>24</span>And feels up-tossing his breast an exhaustless breath bear on</div>
+      <div class='line'>Spouted from isleless ocean to aid his flight—</div>
+      <div class='line'>So fiercely, so steadily gallop’d the sinewy Srōn,</div>
+      <div class='line'>Braced by that double burden to more delight.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Though his mane wrapp’d a wounded bridle-hand, fast, fast</div>
+      <div class='line'>As giddy foam-weltering waters dash’d by the hoof</div>
+      <div class='line'>Flee away from the weirs of Callan, even so pass’d</div>
+      <div class='line'>Dark plains away to the world’s edge, behind and aloof.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And the rider stoop’d and whisper’d amidst the thunder of weirs</div>
+      <div class='line'>Such sweetness of praise to his horse in the swirl of the flood</div>
+      <div class='line'>That Srōn twitch’d back for an instant his moonëd ears—</div>
+      <div class='line'>Strain’d forth like a hare’s,—as his haunches up to the wood</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_25'>25</span>Wrested them. Beaks of magic, the wreckage of time, came out</div>
+      <div class='line'>And talon’d things of the forest would waft and sway</div>
+      <div class='line'>But Naois raised unforgotten that battle-shout</div>
+      <div class='line'>That scatters the thrilling wreath of all fears away.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>So they measured the Plain of the Dreamers, the Brake of the Black Ram,</div>
+      <div class='line'>Till the Crag of the Dances before them did shape and loom.</div>
+      <div class='line'>And the Meads of the Faery Hurlers in silver swam</div>
+      <div class='line'>Then up to the Gap of the Winds, and the far-seen tomb</div>
+    </div>
+    <div class='group'>
+      <div class='line'>White on Slieve Fuad’s side. By many a marchland old</div>
+      <div class='line'>And cairn of princes—yea, to mine own bedside—</div>
+      <div class='line'>They adventured. Think ye, sweet bards, that I could lie cold</div>
+      <div class='line'>When my chamber of rock fore-knew that impassion’d stride?</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_26'>26</span>Had I, too, not pluck’d the webs of rain-sweet drops from the harp</div>
+      <div class='line'>And torn from its wave of chords an imperishable love</div>
+      <div class='line'>To sleep on this breast? Here, through the mountain sharp</div>
+      <div class='line'>My grave-chamber tunnell’d is, and one door from above</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Westward surveys green territories, gentle with flowers and charm,</div>
+      <div class='line'>But forth from the eastern face of the ridge is unquell’d</div>
+      <div class='line'>Wilderness, besown with boulders and grass of harm.</div>
+      <div class='line'>And even in my trance could I feel those riders approach and beheld</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Naois assault the ridge, to the wilderness setting his face</div>
+      <div class='line'>Expectant, unconscious, as one whom his foes arouse;</div>
+      <div class='line'><span class='pageno' id='Page_27'>27</span>His heart was a forge—his onset enkindled space—</div>
+      <div class='line'>He shook off the gusty leagues like locks from his brows.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>What should he reck of Earth save that under his wounds he felt</div>
+      <div class='line'>Stolen round him, as dreamy water steals round a shore,</div>
+      <div class='line'>A girdle, the arms of Deirdre, clasp’d for a belt</div>
+      <div class='line'>That terror of main kings should unlock no more?</div>
+    </div>
+    <div class='group'>
+      <div class='line'>I was caught from the grave’s high gate as that spume-flaked ecstacy drew</div>
+      <div class='line'>Upward, and wing’d like the kiss of Aengus, strove</div>
+      <div class='line'>For utterance to greet them—encircling their heads that flew—</div>
+      <div class='line'>But who loops the whirlwind’s foot or out-dreameth love?</div>
+    </div>
+    <div class='group'>
+      <div class='line'>He wheel’d round Srōn on the crest. Abrupt he flung back a hand</div>
+      <div class='line'>And spoke, “Dost thou know the truth? Look where night is low!</div>
+      <div class='line'><span class='pageno' id='Page_28'>28</span>Soon the ants of that mound shall shake the ledge where we stand:</div>
+      <div class='line'>Now the tribes are summon’d, the Night prepares his blow.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Now wrath spurts, hot from the trumpet—the main beacon flares—</div>
+      <div class='line'>Now tackle the arrogant chariots—dogs in their glee</div>
+      <div class='line'>Hang on the leash-slaves, numb in the cockcrow airs.</div>
+      <div class='line'>Why, out of all that host, hast thou singled me?”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>I heard her behind him breathe, “Because out of all that host</div>
+      <div class='line'>Aptest art thou in feats, held in honour more</div>
+      <div class='line'>Than any save bright Cuchullain.”<a id='r1'></a><a href='#f1' class='c014'><sup>[1]</sup></a> He turn’d as one lost,</div>
+      <div class='line'>“Is this time a time to mock? Are there not fourscore</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Better at feats than I, my masters, the noble teams,</div>
+      <div class='line'>The attemper’d knights of the Red Branch every one?</div>
+      <div class='line'><span class='pageno' id='Page_29'>29</span>Nay, though I knead up the whole earth in my dreams,</div>
+      <div class='line'>Nought to such men am I, who have nothing done.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>I heard the blowings of Srōn, and then lasting words: “I choose</div>
+      <div class='line'>Thee—wherefore? Ah, how interpret? To-day on the slope</div>
+      <div class='line'>Where first by the wall I saw thee at gloam of dews</div>
+      <div class='line'>I knew it was fated. It was not some leaf of hope</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Eddying. Thou wast the token—half of the potter’s shard—</div>
+      <div class='line'>That a chief beleaguer’d cons in his desperate camp</div>
+      <div class='line'>Pass’d in by some hand unseen to the outmost guard,</div>
+      <div class='line'>And fits to the other half by his wasted lamp.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Seeing thee, I knew myself to be shaped of the self-same clay—</div>
+      <div class='line'>Half of the symbol—and broken, mayhap, to serve</div>
+      <div class='line'><span class='pageno' id='Page_30'>30</span>As language to them of the night from powers of the day.”</div>
+      <div class='line'>By the Path of the throbbing Curlew no step may swerve</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Where they rode through the Gap; and at last she murmur’d, “Dost grieve at me still?”</div>
+      <div class='line'>And he said, “Glorious is it to me that behind us pursuit</div>
+      <div class='line'>Shall be wide as the red of the morning, for thou art my will!</div>
+      <div class='line'>To the beach of the world of the dead, and beyond it to boot,</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Let me take and defend thee.” In silence the hearts of the twain were screen’d,—</div>
+      <div class='line'>But crossing the mires and the torrents I saw strange ease</div>
+      <div class='line'>Afloat, like a spark, on the woman’s eyes as she lean’d</div>
+      <div class='line'>Forth, and a shadow betwixt her lips like peace.</div>
+    </div>
+  </div>
+</div>
+
+<div class='footnote' id='f1'>
+<p class='c015'><a href='#r1'>1</a>. Pronounced Cuhoollin.</p>
+</div>
+
+<div>
+  <span class='pageno' id='Page_31'>31</span>
+  <h3 class='c012'>IV<br> <span class='c010'>VOICE OF URMAEL <em>out of the Sixth Century</em></span></h3>
+</div>
+
+<div class='lg-container-b c011'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>T</span>he slender Hazels ask’d the Yew like night</div>
+      <div class='line in2'>Beside the river-green of Lisnacaun</div>
+      <div class='line'>“Who is this woman beautiful as light</div>
+      <div class='line in2'>Sitting in dolour on thy branchéd lawn;</div>
+      <div class='line'>With sun-red hair, entangled as with flight,</div>
+      <div class='line in2'>Sheening the knees up to her bosom drawn?</div>
+      <div class='line'>What horses mud-besprent so thirstily</div>
+      <div class='line'>Bellying the hush pools with their nostrils wide?”</div>
+      <div class='line'>And the Yew old as the long mountain-side</div>
+      <div class='line'>Answer’d, “I saw her hither with Clan Usnach ride.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Come, love, and climb with me Findruim’s woods</div>
+      <div class='line in2'>Alone,” Naois pray’d. Through broom and bent</div>
+      <div class='line'>Strown with swift-travelling shadows of their moods,</div>
+      <div class='line in2'>Leaving below the camp’s thin cries, they went.</div>
+      <div class='line'><span class='pageno' id='Page_32'>32</span>And never a tress, escaping from her snoods,</div>
+      <div class='line in2'>Made the brown river with a kiss content,</div>
+      <div class='line'>So safe he raised up Deirdre through the ford.</div>
+      <div class='line'>Thanks, piteous Gods, that no fore-boding gave,</div>
+      <div class='line'>He should so bear her after to the grave,</div>
+      <div class='line'>Breasting the druid ice, breasting the phantom wave.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“O, bear me on,” she breathed, “for ever so!”</div>
+      <div class='line in2'>And light as notes the Achill shepherd plays</div>
+      <div class='line'>On his twin pipes they wanton’d, light and slow,</div>
+      <div class='line in2'>Up the broad valley. Birds sail’d from the haze</div>
+      <div class='line'>Far up, where darkling copses over-grow</div>
+      <div class='line in2'>Scarps of the gray cliff from his river’d base.</div>
+      <div class='line'>Diaphaneity, the spirit’s beauty,</div>
+      <div class='line'>Along the dimnéd coombes did float and reign,</div>
+      <div class='line'>And many a mountain’s scarry flank was plain</div>
+      <div class='line'>Through nets of youngling gold betrimm’d with rain.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>But when an upward space of grass—so free—</div>
+      <div class='line in2'>So endless—beckon’d to the realms of wind</div>
+      <div class='line'>Deirdre broke from his side, and airily</div>
+      <div class='line in2'>Fled up the slopes, flinging disdains behind,</div>
+      <div class='line'><span class='pageno' id='Page_33'>33</span>And paused, and round a little vivid tree</div>
+      <div class='line in2'>The wolf-skins from her neck began to bind.</div>
+      <div class='line'>Naois watch’d below this incantation;</div>
+      <div class='line'>Then upward on his javelin’s length he swung</div>
+      <div class='line'>To catch some old crone’s ditty freshly sung,</div>
+      <div class='line'>Bidding that shoot be wise, for yet ’twas young.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>With gaze in gaze, thus ever up and on</div>
+      <div class='line in2'>Roved they unwitting of the world out-roll’d,</div>
+      <div class='line'>Their ears dinn’d by the breeze’s clarion</div>
+      <div class='line in2'>That quicks the blood while yet the cheek is cold;</div>
+      <div class='line'>Great whitenesses rose past them—brooks ran down—</div>
+      <div class='line in2'>And step by step Findruim bare and bold</div>
+      <div class='line'>Uplifted. So a swimmer is uplifted</div>
+      <div class='line'>Horsed on a streaming shoulder of the Sea—</div>
+      <div class='line'>Our hasty master, who to such as we</div>
+      <div class='line'>Tosses some glittering hour of mastery.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>They heard out of the zenith swoop and sting</div>
+      <div class='line in2'>Feathery voices, keen and soft and light:</div>
+      <div class='line'><span class='pageno' id='Page_34'>34</span>“<em>Mate ye as eagles mate, that on the wing</em></div>
+      <div class='line in2'><em>Grapple—heaven-high—hell-deep, for yours is flight!</em></div>
+      <div class='line'><em>Souls like the granite candles of a king</em></div>
+      <div class='line in2'><em>Flaming unshook amid the noise of night</em></div>
+      <div class='line'><em>What of pursuit, that you to-day shouldst fear it?</em>”</div>
+      <div class='line'>Pursuit they reck’d not, save of wind that pours</div>
+      <div class='line'>Surging and urging on to other shores</div>
+      <div class='line'>Over the restless forest of a thousand doors.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Deirdre,” he cried, “the blowing of thy hair</div>
+      <div class='line in2'>Is of the clouds that everlasting stream</div>
+      <div class='line'>Forth from the castles of those islands rare</div>
+      <div class='line in2'>Black in the ragged-misted ocean’s gleam</div>
+      <div class='line'>And glimpsed by Iceland galleys as they fare</div>
+      <div class='line in2'>Northward!” But in her bosom’s open seam</div>
+      <div class='line'>She set the powder’d yew-sprig silently;</div>
+      <div class='line'>“Speak not of me nor give my beauty praise,</div>
+      <div class='line'>Whose beauty is to follow in thy ways</div>
+      <div class='line'>So that my days be number’d with thy days.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_35'>35</span>In the high pastures of that boundless place</div>
+      <div class='line in2'>Their feet wist not if they should soar or run</div>
+      <div class='line'>They turned, at earth astonish’d, face to face</div>
+      <div class='line in2'>Deeming unearthly blessedness begun.</div>
+      <div class='line'>And slow, mid nests of running larks, they pace</div>
+      <div class='line in2'>Drinking from the recesses of the sun</div>
+      <div class='line'>Tremble of those wings that beat light into music.</div>
+      <div class='line'>There the world’s ends lay open: open wide</div>
+      <div class='line'>The body’s windows. What shall them divide</div>
+      <div class='line'>Who have walk’d once that country side by side?</div>
+    </div>
+    <div class='group'>
+      <div class='line'>She mused, “O why doth happiness too much</div>
+      <div class='line in2'>Fountains of blood and spirit seem to fill?</div>
+      <div class='line'>The woods, over-flowing, cannot bear that such</div>
+      <div class='line in2'>An hour should be so sweet and yet be still:</div>
+      <div class='line'>Even the low-tangled bushes at a touch</div>
+      <div class='line in2'>Break into wars of gleemen, thrill on thrill.</div>
+      <div class='line'>O son of Usnach, bring me not thy glories!</div>
+      <div class='line'>Bring me defeats and shames and secret woe;</div>
+      <div class='line'><span class='pageno' id='Page_36'>36</span>That where no brother goeth I may go</div>
+      <div class='line'>And kneel to wash thy wounds in caverns bleak and low!”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Here, up in sight of the far shine of sea,</div>
+      <div class='line in2'>(He sang) once after hunting, by the fire</div>
+      <div class='line'>I knelt, and kindling brushwood raised up thee,</div>
+      <div class='line in2'>Deirdre, nor wist the star of my desire</div>
+      <div class='line'>Should ever walk Findruim’s head with me</div>
+      <div class='line in2'>Far from a king’s loud house and soft attire.</div>
+      <div class='line'>Fain would I thatch us here a booth of hazels,</div>
+      <div class='line'>Thatch it with drift and snow of sea-gulls’ wings:</div>
+      <div class='line'>And thy horn’d harp should wonder to its strings</div>
+      <div class='line'><em>What spoil is it to-night Naois brings?</em>”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Listen,” quoth he, when scarce those words were gone</div>
+      <div class='line in2'>(A neck of the bare down it was, a ledge</div>
+      <div class='line'>Of wind-sleek turf, the lovers roam’d upon</div>
+      <div class='line in2'>And sent young rabbits scuttling to the edge</div>
+      <div class='line'>Of underwoods beneath) “I think that yon</div>
+      <div class='line in2'>Some beast—haply a stag—takes harbourage.”</div>
+      <div class='line'><span class='pageno' id='Page_37'>37</span>And Deirdre at a word come back from regions</div>
+      <div class='line'>Of bliss too close to pain, snatch’d with no fear</div>
+      <div class='line'>Out of his hand the battle-haunted spear</div>
+      <div class='line'>And, questing swiftly down the pasture sheer,</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Enter’d the yew’s black vault: therein profound</div>
+      <div class='line'>Green-litten air, and there as seeking fresh</div>
+      <div class='line'>Enemies, one haunch crush’d against the ground</div>
+      <div class='line in2'>The grey boar slew’d, tusking the tender flesh</div>
+      <div class='line'>Of shoots, his ravage-whetted bulk around:</div>
+      <div class='line in2'>But when his ear across the straggling mesh</div>
+      <div class='line'>Of feather’d sticks report of Deirdre found</div>
+      <div class='line'>He quiver’d, snorted; from his jaws like wine</div>
+      <div class='line'>Foam dripp’d; along the horror of his spine</div>
+      <div class='line'>The bristles grew up like a ridge of pine.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Mortals, the maiden deem’d that guise a mask—</div>
+      <div class='line in2'>Believed that in that beast sate to ensnare</div>
+      <div class='line'>He of the red eye—little need to ask</div>
+      <div class='line in2'>The druid-wrinkled hide, the sluttish hair:</div>
+      <div class='line'>This was to escape—how vain poor passion’s task!—</div>
+      <div class='line in2'>Connachar of the illimitable lair!</div>
+      <div class='line'><span class='pageno' id='Page_38'>38</span>He crash’d at her; she heaved the point embrown’d</div>
+      <div class='line'>In blood of dragons. Heavily the boar</div>
+      <div class='line'>Grazed by the iron, reel’d, leapt, charged once more</div>
+      <div class='line'>And thrice in passage her frail vesture tore.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>As when a herd-boy lying on the scar</div>
+      <div class='line in2'>(Who pipes to flocks below him on the steep</div>
+      <div class='line'>Melodies like their neckbells, scattering far,</div>
+      <div class='line in2'>Cool as the running water, soft as sleep)</div>
+      <div class='line'>Hurls out a flint from peril to debar</div>
+      <div class='line in2'>And from the boulder’d chasm recall his sheep—</div>
+      <div class='line'>So with a knife Naois leapt and struck.</div>
+      <div class='line'>Strange, in the very fury of a stride</div>
+      <div class='line'>The grey beast like a phantom from his side</div>
+      <div class='line'>Plunged without scathe to thickets undescried.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Naois sheathed his iron with no stain</div>
+      <div class='line in2'>And laugh’d “This shall be praised in revels mad</div>
+      <div class='line'>Around Lug’s peak, when women scatter grain</div>
+      <div class='line in2'>Upon the warriors. Why shouldst thou be sad</div>
+      <div class='line'><span class='pageno' id='Page_39'>39</span>Pale victory?” But she, “Ah, thus again</div>
+      <div class='line in2'>Ere night do I imperil thee, and add</div>
+      <div class='line'>Burden to burden.” And he strove to lead her</div>
+      <div class='line'>From grief, and said “What, bride! thy raiment torn?”</div>
+      <div class='line'>“Content thee, O content thee, man of scorn,</div>
+      <div class='line'>I’ll brooch it with no jewel but a thorn!”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>They seek down through the Wood of Awe that hems</div>
+      <div class='line in2'>Findruim, like the throng about his grave,</div>
+      <div class='line'>Dusk with the swarth locks of ten thousand stems</div>
+      <div class='line in2'>In naked poise. These make no rustle save</div>
+      <div class='line'>Some pine-cone dropt, or murmur that condemns</div>
+      <div class='line in2'>Murmur; bedumb’d with moss that giant nave.</div>
+      <div class='line'>But let Findruim shake out overhead</div>
+      <div class='line'>His old sea-sigh, and when it doth arrive</div>
+      <div class='line'>At once their tawny boles become alive</div>
+      <div class='line'>With flames that come and go, and they revive</div>
+    </div>
+    <div class='group'>
+      <div class='line'>The north’s Fomorian roar.—“I am enthrall’d,”</div>
+      <div class='line in2'>He said, “as by the blueness of a ray</div>
+      <div class='line'><span class='pageno' id='Page_40'>40</span>That, dropping through this presence sombre-wall’d</div>
+      <div class='line in2'>Burns low about the image of a spray—</div>
+      <div class='line'>Of some poor beech-spray witch’d to emerald.</div>
+      <div class='line in2'>Wilt thou not dance, daughter of heaven, to-day</div>
+      <div class='line'>Free, at last free? For here no moody raindrop</div>
+      <div class='line'>Can reach thee, nor betrayer overpeer;</div>
+      <div class='line'>And none the self-delightful measure hear</div>
+      <div class='line'>That thy soul moves to, quit of mortal ear.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Full loth she pleads, yet cannot him resist</div>
+      <div class='line in2'>And on the enmosséd lights begins to dance.</div>
+      <div class='line'>Away, away, far-floating like a mist,</div>
+      <div class='line in2'>To fade into some leafy brilliance;</div>
+      <div class='line'>Then, smiling to the inward melodist,</div>
+      <div class='line in2'>Over the printless turf with slow advance</div>
+      <div class='line'>Of showery footsteps, makes she infinite</div>
+      <div class='line'>That crowded glen. But quick, possess’d by strange</div>
+      <div class='line'>Rapture, wider than dreams her motions range</div>
+      <div class='line'>Till to a span the forests shrink and change.</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_41'>41</span>And in her eyes and glimmering arms she brings</div>
+      <div class='line in2'>Hither all promise,—all the unlook’d-for boon</div>
+      <div class='line'>Of rain-bow’d life—all rare and speechless things</div>
+      <div class='line in2'>That shine and swell under the brimming Moon.</div>
+      <div class='line'>Who shall pluck tympans? For what need of strings</div>
+      <div class='line in2'>To waft her blood who is herself the tune—</div>
+      <div class='line'>Herself the warm and breathing melody?</div>
+      <div class='line'>Art come from the Land of the Ever-Young? O stay!</div>
+      <div class='line'>For his heart, after thee rising away,</div>
+      <div class='line'>Falls dark and spirit-faint back to the clay.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Griefs, like the yellow leaves by winter curl’d,</div>
+      <div class='line in2'>Rise after her—long-buried pangs arouse—</div>
+      <div class='line'>About that bosom the grey forests whirl’d,</div>
+      <div class='line in2'>And tempests with her beauty might espouse,—</div>
+      <div class='line'>She rose with the green waters of the world</div>
+      <div class='line in2'>And the winds heaved with her their depth of boughs.</div>
+      <div class='line'>Then vague again as blows the beanfield’s odour</div>
+      <div class='line'>On the dark lap of air she chose to sink,</div>
+      <div class='line'><span class='pageno' id='Page_42'>42</span>As, winnowing with plumes, to the river-brink</div>
+      <div class='line'>The pigeons from the cliff come down to drink.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Sudden distraught, shading her eyes, she ceased,</div>
+      <div class='line in2'>Listening, like bride whom cunning faery strain</div>
+      <div class='line'>Forth from the trumpet-bruited spousal feast</div>
+      <div class='line in2'>Steals. But she beckon’d soon, and quick with pain</div>
+      <div class='line'>He ran, he craved at those white feet the least</div>
+      <div class='line in2'>Pardon; nor, till he felt her hand again</div>
+      <div class='line'>Descend flake-soft, durst spy that she was weeping</div>
+      <div class='line'>Or kneel with burning murmurs to atone.</div>
+      <div class='line'>For sleep she wept. Long fasting had they gone</div>
+      <div class='line'>And ridden from the breaking of the dawn.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>It chanced that waters, nigh to that selve grove,</div>
+      <div class='line in2'>From Sleep’s own lake as from a cauldron pass;</div>
+      <div class='line'>He led towards their sound his weary love</div>
+      <div class='line in2'>And lay before her in the fresh of grass</div>
+      <div class='line'>Resting—the white cirque of the cliffs above—</div>
+      <div class='line in2'>Against a sun-abandon’d stem there was.</div>
+      <div class='line'><span class='pageno' id='Page_43'>43</span>Spray from the strings of water spilling over</div>
+      <div class='line'>The weir of rock, their fever’d cheeks bewet;</div>
+      <div class='line'>And to its sound a voiceless bread they ate,</div>
+      <div class='line'>And drank the troth that is unbroken yet.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Out in the mere—brown—unbesilver’d now</div>
+      <div class='line in2'>By finest skimming of the elfin breeze—</div>
+      <div class='line'>An isle was moor’d, with rushes at its prow</div>
+      <div class='line in2'>And fraught with haze of deeply-mirror’d trees;</div>
+      <div class='line'>And knowing Deirdre still was mindful how</div>
+      <div class='line in2'>The boar yet lived, that she might sleep at ease</div>
+      <div class='line'>Naois swore to harbour on that islet.</div>
+      <div class='line'>Nine strides he waded in, on footings nine</div>
+      <div class='line'>Deep, deeper yet, until his basnet’s shine</div>
+      <div class='line'>Sank to the cold lips of the lake divine.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Divine; for once the sunk stones of that way</div>
+      <div class='line in2'>Approach’d the pool-god, and the outermost</div>
+      <div class='line'>Had been the black slab whereon druids slay</div>
+      <div class='line in2'>With stoop and mutter to the water’s ghost,</div>
+      <div class='line'>Though since to glut some whim malign the fay</div>
+      <div class='line in2'>Had swell’d over the flags. Of all the host</div>
+      <div class='line'><span class='pageno' id='Page_44'>44</span>Few save Naois, and at sore adventure</div>
+      <div class='line'>Had ta’en this pass. But who would not have press’d</div>
+      <div class='line'>Through straits by the chill-finger’d fiend possess’d</div>
+      <div class='line'>To bear unto that isle Deirdre to rest?</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Seal up thy sight; my shield of iron rims</div>
+      <div class='line in2'>Unhook; cast in this shatter’d helm for spoil.”</div>
+      <div class='line'>’Twas done, and then with rush of cleaving limbs</div>
+      <div class='line in2'>He swam and bore her out with happy toil</div>
+      <div class='line'>Secret and fierce as the flat otter swims</div>
+      <div class='line in2'>Out of the whistling reeds as if through oil.</div>
+      <div class='line'>And Deirdre, whiter than the wave-swan floating,</div>
+      <div class='line'>Smiled that he suffer’d her no stroke to urge.</div>
+      <div class='line'>At length they reach the gnarl’d and ivied verge</div>
+      <div class='line'>And from the shallows to the sun emerge.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>She spreads her wolf-skins on the rock that glows</div>
+      <div class='line in2'>And sun-tears wrings out of the heavy strands</div>
+      <div class='line'>Of corded hair. He, watching to the close,</div>
+      <div class='line in2'>Sees not the white silk tissue as she stands</div>
+      <div class='line'><span class='pageno' id='Page_45'>45</span>Clinging bedull’d to the clear limbs of rose.</div>
+      <div class='line in2'>She turn’d and to him stretch’d misdoubting hands:</div>
+      <div class='line'>“Tell me, ere thou dissolve, O wordless watcher,</div>
+      <div class='line'>Am I that Deirdre that would sit and spin</div>
+      <div class='line'>Beside Keshcorran? Dost thou love me? Then</div>
+      <div class='line'>I touch thee. For I, too, have love within.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>O sacred cry! Again, again the first</div>
+      <div class='line in2'>Love-cry! How the steep woods thirst for thy voice,</div>
+      <div class='line'>O never-dying one! That voice, like the outburst</div>
+      <div class='line in2'>And gush of a young spring’s delicious noise</div>
+      <div class='line'>Driven from the ancient heights whereon ’twas nursed!</div>
+      <div class='line in2'>Yet, as death’s heart is silent, so is joy’s.</div>
+      <div class='line'>His mouth spake not; for, as in dusk Glen Treithim</div>
+      <div class='line'>Smelters of bubbling gold brook not to breathe</div>
+      <div class='line'>Reek of the colour’d fumes whose hissings wreathe</div>
+      <div class='line'>The brim, he choked at his own spirit’s seethe.</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_46'>46</span>Sternly he looked on her and strangely said</div>
+      <div class='line in2'>“What touch is thine? It hath unearthly powers.</div>
+      <div class='line'>I think thou art the woman Cairbre made</div>
+      <div class='line in2'>Out of the dazzle and the wind of flowers.</div>
+      <div class='line'>Behold, the flame-like children of the shade,</div>
+      <div class='line in2'>The buds, about thee rise like servitors!</div>
+      <div class='line'>It seems I had not lipp’d the cup of living</div>
+      <div class='line'>Till thou didst stretch it out. Vaguely I felt</div>
+      <div class='line'>Irreparable waste. Why hast thou dwell’d</div>
+      <div class='line'>Near me on earth so long, yet unbeheld?”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Chanters! The Night brings nigh the deeps far off,</div>
+      <div class='line in2'>But Twilight shows the distance of the Near;</div>
+      <div class='line'>And with a million dawns that pierce above</div>
+      <div class='line in2'>Mixes the soul of suns that disappear,</div>
+      <div class='line'>To make man’s eyes approach the eyes of love</div>
+      <div class='line in2'>In simpleness, in mystery and fear.</div>
+      <div class='line'>All blooms both bright and pale are in her gardens,</div>
+      <div class='line'>All chords both shrill and deep under her hand</div>
+      <div class='line'>Who, sounding forth the richness of the land,</div>
+      <div class='line'>Estrangeth all, that we may understand.</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_47'>47</span>So still it was, they heard in the evening skies</div>
+      <div class='line in2'>Creak as of eagles’ wing-feathers afar</div>
+      <div class='line'>Coasting the grey cliffs. On him slowly rise,</div>
+      <div class='line in2'>As to Cuchullain came his signal star,</div>
+      <div class='line'>Out of the sheeted rivers, Deirdre’s eyes.</div>
+      <div class='line in2'>And who look’d in them well was girt for war;</div>
+      <div class='line'>Seeing in that gaze all who for love had perish’d:</div>
+      <div class='line'>The queens calamitous unbow’d at last—</div>
+      <div class='line'>The supreme fighters that alone stood fast—</div>
+      <div class='line'>Fealties obscure, unwitness’d, and long past,</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Cloud over cloud—the host that had attain’d</div>
+      <div class='line in2'>By love,—in very essence, force, heat, breath</div>
+      <div class='line'>Now, now arose in Deirdre’s eyes and deign’d</div>
+      <div class='line in2'>Summons to him—“<em>Canst follow us?</em>” it saith—</div>
+      <div class='line'>Till from that great contagion he hath gain’d</div>
+      <div class='line in2'>An outlook like to conquest over death.</div>
+      <div class='line'>Then he discerns the solemn-rafter’d world</div>
+      <div class='line'>By this frail brazier’s glowings, wherein blend</div>
+      <div class='line'><span class='pageno' id='Page_48'>48</span>Coals that no man hath kindled, without end</div>
+      <div class='line'>Born and re-born, from ashes to ascend.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And face to face to him unbared she cleaves</div>
+      <div class='line in2'>Woman no more—scarce-breathing—infinite,</div>
+      <div class='line'>Grave as the fair-brow’d priestess Earth receives</div>
+      <div class='line in2'>In all her lochs and plains and invers bright</div>
+      <div class='line'>And shores wide-trembling where one image heaves,</div>
+      <div class='line in2'>Him that is lord of silence and of light.</div>
+      <div class='line'>Slow the God sigh’d himself from rocks and waters</div>
+      <div class='line'>But in his soft withdrawals from the air</div>
+      <div class='line'>No creature in the weightless world was there</div>
+      <div class='line'>Uttered its being’s secret round the pair.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Ah! them had Passion’s self-enshrouding arm</div>
+      <div class='line in2'>Taken, as a green fury of ocean takes,</div>
+      <div class='line'>Through the dense thickets smitten with alarm</div>
+      <div class='line in2'>To the islet’s trancéd core. And Deirdre wakes,</div>
+      <div class='line'>Lifting hot lids that shut against the storm,</div>
+      <div class='line in2'>Lying on a hillock, amid slender brakes</div>
+      <div class='line'><span class='pageno' id='Page_49'>49</span>Of grey trees, to the babble of enchantments</div>
+      <div class='line'>From mouths of chill-born flowers. The place was new</div>
+      <div class='line'>To rapture. Branchéd sunbursts plashing through</div>
+      <div class='line'>After, had laid the mound with fire and dew.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Naois cuts down osiers. Now he seeks</div>
+      <div class='line in2'>A narrow grass-plot shorn as if with scythe</div>
+      <div class='line'>And over two great boulders’ wrinkled cheeks</div>
+      <div class='line in2'>Draws down and knots a hull of saplings lithe,</div>
+      <div class='line'>Well-staunch’d with earthy-odour’d moss and sticks</div>
+      <div class='line in2'>Known to the feet of birds. This darkness blithe</div>
+      <div class='line'>He frames against the stars for forest sleepers.</div>
+      <div class='line'>The living tide of stars aloft that crept</div>
+      <div class='line'>Compassion’d far below. No wavelet leapt;</div>
+      <div class='line'>And deep rest fell upon them there. They slept.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Long, long, the melancholy mountains lay</div>
+      <div class='line in2'>Aware; mute-rippling shades that isle enwound.</div>
+      <div class='line'>Naois fell through dreams, like the snapt spray</div>
+      <div class='line in2'>That drops from branch to branch,—that stillest sound!—</div>
+      <div class='line'><span class='pageno' id='Page_50'>50</span>And while from headlands scarce a league away</div>
+      <div class='line in2'>The din of the sea-breakers come aground</div>
+      <div class='line'>Roll’d up the valley, he in vision govern’d</div>
+      <div class='line'>His ribbéd skiff under Dun Aengus sweeping,</div>
+      <div class='line'>Triumphing with his love, and leaping, leaping,</div>
+      <div class='line'>Drew past the ocean-shelves of seals a-sleeping.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>But over starr’d peat-water, where the flag</div>
+      <div class='line in2'>Rustles, and listens for the scud of teal;</div>
+      <div class='line'>Over coast, forest, and bethunder’d crag</div>
+      <div class='line in2'>Night—mother of despairs, who proves the steel</div>
+      <div class='line'>In men, to see if they be dross and slag</div>
+      <div class='line in2'>Or fit with trusts and enemies to deal</div>
+      <div class='line'>Uneyed, alone—diffusing her wide veils</div>
+      <div class='line'>Bow’d from the heavens to his exultant ear:</div>
+      <div class='line'><em>A questioner awaits thee: rouse!</em> The mere</div>
+      <div class='line'>Slept on, save for the twilight-footed deer.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Those antler’d shadows of the forest-roof</div>
+      <div class='line in2'>Nigh to the shore must be assembled thick,”</div>
+      <div class='line'>He thought, “and bringing necks round to the hoof</div>
+      <div class='line in2'>Or being aslaked and couching, seek to lick</div>
+      <div class='line'><span class='pageno' id='Page_51'>51</span>The fawns. Some heady bucks engage aloof,</div>
+      <div class='line in2'>So sharp across the water comes the click</div>
+      <div class='line'>Of sparring horns.” But was it a vain terror,</div>
+      <div class='line'>Son of the sword, or one for courage staunch,</div>
+      <div class='line'>That the herd, dismay’d, at a bound, with a quivering haunch</div>
+      <div class='line'>Murmur’d away into night at the crack of a branch?</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And Deirdre woke. Reverberate from on high</div>
+      <div class='line in2'>Amongst the sullen hills, distinct there fell</div>
+      <div class='line'>A mournful keen, like to the broken cry</div>
+      <div class='line in2'>From the house of hostage in some citadel</div>
+      <div class='line'>Of hostages lifting up their agony</div>
+      <div class='line in2'>After the land they must remember well,</div>
+      <div class='line'>“Deirdre is gone! Gone is the little Deirdre!”</div>
+      <div class='line'>And she knowing not the voice as voice of man</div>
+      <div class='line'>Stood up. “Lie still, lest thee the spirit ban</div>
+      <div class='line'>O vein of life, lie still!” But Deirdre ran</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Like the moon through brakes, and saw where nought had been</div>
+      <div class='line in2'>On the vague shore what seem’d a stone that stood;</div>
+      <div class='line'><span class='pageno' id='Page_52'>52</span>Faceless, rough-hewn, it forward seem’d to lean</div>
+      <div class='line in2'>Like the worn pillar of Cenn Cruaich the God.</div>
+      <div class='line'>She cried across “If thou with things terrene</div>
+      <div class='line in2'>Be number’d, tell me why thy sorrowful blood</div>
+      <div class='line'>Mourneth, O Cathva, father!” But the stone</div>
+      <div class='line'>Shiver’d, and broke the staff it lean’d upon,</div>
+      <div class='line'>Shouting, “What! livst thou yet? Begone, begone!”</div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <span class='pageno' id='Page_53'>53</span>
+  <h3 class='c012'>V<br> <span class='c010'>VOICE OF FINTAN <em>again, out of the First Century</em>,</span></h3>
+</div>
+
+<div class='lg-container-b c011'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>L</span>et my lips finish what my lips began.—</div>
+      <div class='line'>Then to the two beclouded in black boughs</div>
+      <div class='line'>The third across the water cried “Speak once!</div>
+      <div class='line'>Though the earth shake beneath you like a sieve</div>
+      <div class='line'>With wheels of Connachar, answer me this:</div>
+      <div class='line'>Naois, could she understand his hate</div>
+      <div class='line'>Whose arm requiteth—far as runs the wind—</div>
+      <div class='line'>By me, that blow away the gaze and smile</div>
+      <div class='line'>From women’s faces; O could Deirdre have guess’d—</div>
+      <div class='line'>Mourning all night the fading of her kingdoms</div>
+      <div class='line'>Fled like a song—what means, <em>a banished man</em>;</div>
+      <div class='line'>That he and I must hound thee to the death;</div>
+      <div class='line'>That thou shalt never see the deep-set eaves,</div>
+      <div class='line'>The lofty thatch familiar with the doves,</div>
+      <div class='line'>On thy sad mother Usnach’s house again;</div>
+      <div class='line'><span class='pageno' id='Page_54'>54</span>But drift out like some sea-bird, far, far, hence,</div>
+      <div class='line'>Far from the red isle of the roes and berries,</div>
+      <div class='line'>Far from sun-galleries and pleasant dúns</div>
+      <div class='line'>And swards of lovers,—branded, nationless;</div>
+      <div class='line'>That none of all thy famous friends, with thee</div>
+      <div class='line'>Wrestlers on Eman in the summer evenings,</div>
+      <div class='line'>Shall think thee noble now; and that at last</div>
+      <div class='line'>I must upheave thy heart’s tough plank to crack it—</div>
+      <div class='line'>Knowing all this, would this fool follow thee?”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Then spoke Naois, keeping back his wrath,</div>
+      <div class='line'>“Strange is it one so old should threat with Death!</div>
+      <div class='line'>Are not both thou and I, are not we all,</div>
+      <div class='line'>By Death drawn from the wickets of the womb—</div>
+      <div class='line'>Seal’d with the thumb of Death when we are born?</div>
+      <div class='line'>As for friends lost (though I believe thee not),</div>
+      <div class='line'>A man is nourish’d by his enemies</div>
+      <div class='line'>No less than by his friends. But as for her,</div>
+      <div class='line'><span class='pageno' id='Page_55'>55</span>Because no man shall deem me noble still,—</div>
+      <div class='line'>Because I like a sea-gull of the isles</div>
+      <div class='line'>May be driven forth—branded and nationless,—</div>
+      <div class='line'>Because I shall no more, perhaps, behold</div>
+      <div class='line'>The deep-set eaves on that all-sacred house,—</div>
+      <div class='line'>Because the gather’d battle of the powers</div>
+      <div class='line'>Controlling fortune, breaks upon my head,—</div>
+      <div class='line'>Yea! for that very cause, lack’d other cause,</div>
+      <div class='line'>In love the closer,—quenchless,—absolute,</div>
+      <div class='line'>Would Deirdre choose to follow me. Such pains,</div>
+      <div class='line'>Seër, the kingdoms are of souls like hers!”</div>
+      <div class='line'>He spoke; he felt her life-blood at his side</div>
+      <div class='line'>Sprung of the West, the last of human shores,</div>
+      <div class='line'>Throbbing, “Look forth on everlastingness!</div>
+      <div class='line'>Through the coil’d waters and the ebb of light</div>
+      <div class='line'>I’ll be thy sail!”</div>
+    </div>
+    <div class='group'>
+      <div class='line in20'>Over the mist like wool</div>
+      <div class='line'>No sound; the echo-trembling tarn grew mute.</div>
+      <div class='line'>But when through matted forest with uproar</div>
+      <div class='line'>The levy of pursuers, brazen, vast,</div>
+      <div class='line'><span class='pageno' id='Page_56'>56</span>Gush’d like a river, and torch’d chariots drew</div>
+      <div class='line'>With thunder-footed horses on, and lash’d</div>
+      <div class='line'>Up to the sedge, and at the Druid’s shape</div>
+      <div class='line'>Their steamy bellies rose over the brink</div>
+      <div class='line'>Pawing the mist, and when a terrible voice</div>
+      <div class='line'>Ask’d of that shape if druid ken saw now</div>
+      <div class='line'>The twain,—advanced out of the shade of leaves</div>
+      <div class='line'>Nor Deirdre nor Naois heard reply;</div>
+      <div class='line'>And like a burning dream the host, dissolving,</div>
+      <div class='line'>Pass’d. On the pale bank not a torch remain’d.</div>
+      <div class='line'>They look’d on one another, left alone.</div>
+    </div>
+  </div>
+</div>
+
+<div class='nf-center-c0'>
+<div class='nf-center c005'>
+    <div><span class='small'>THE END</span></div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_57'>57</span>
+  <h2 class='c006'>OTHER POEMS</h2>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_59'>59</span>
+  <h2 class='c006'>ODE ON A SILVER BIRCH<br> <span class='c010'><em>in St James’ Park</em></span></h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line in20'>1</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='c013'>M</span>use, I will show thee, on a grassy mound</div>
+      <div class='line'>Moving with tufted shadows, albeit bare</div>
+      <div class='line'>Herself, for yet young April primes the air</div>
+      <div class='line'>And bloom snow-laden boughs, the tree I love.</div>
+      <div class='line'>London doth compass it with shores of sound</div>
+      <div class='line'>And thrills the buds when there’s no breath above</div>
+      <div class='line'>To shake its fountain beauty. Thus I came</div>
+      <div class='line'>Along the courtly mere of thicket isles,</div>
+      <div class='line'>And Spring entoil’d me in a hundred wiles,</div>
+      <div class='line'>Bringing the heart content without a name.</div>
+      <div class='line'>Broods, russet-plumed and emerald, steer’d on</div>
+      <div class='line'>With arrowy wake adown the placid tide</div>
+      <div class='line'>And in that gloomy pool there rode enskied,</div>
+      <div class='line'>Aloof, the stately languor of a swan.</div>
+      <div class='line'><span class='pageno' id='Page_60'>60</span>But now the lake sets hither with a breeze</div>
+      <div class='line'>And crooks the peel’d bole of its planes.—Ah, there</div>
+      <div class='line'>Thou shall find audience—yon’s my shadowy love!—</div>
+      <div class='line'>O’er head a rose-grey pigeon beat his wings</div>
+      <div class='line'>About his ’lighted mate, and wooed the bough</div>
+      <div class='line'>And passion born of sight of mortal things</div>
+      <div class='line'>In warmth of living, moved and moves me now</div>
+      <div class='line'>As from the careless height that sways above</div>
+      <div class='line'>Floateth his voice, the soul of greening trees.</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'>2</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Approaching ’twixt the herald saplings pale</div>
+      <div class='line'>Whose light arrayment is a whirl of green</div>
+      <div class='line'>Of flamelets dropping for a virgin veil,</div>
+      <div class='line'>I come. Though Hades’ crocus-jets are stayed,</div>
+      <div class='line'>Soft! for a golden troop instead upsprung</div>
+      <div class='line'>Gossips apart in yon unfooted glade.</div>
+      <div class='line'>Broke we on earshot of that frolic tongue</div>
+      <div class='line'>Straightway would all be husht, they being afraid</div>
+      <div class='line'>To sing’t to simple ear of mutest maid.</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'><span class='pageno' id='Page_61'>61</span>3</div>
+    </div>
+    <div class='group'>
+      <div class='line'>But thou, still silver Spirit, unappall’d</div>
+      <div class='line'>Standest alone, and with thy senses dim</div>
+      <div class='line'>Feeling the first warmth fledge the unleaféd limb</div>
+      <div class='line'>Hearest not tread of mine, O Sun-enthrall’d!</div>
+      <div class='line'>What buried God conceived thee, and forestall’d</div>
+      <div class='line'>In the dull depth thy white and glistering graces—</div>
+      <div class='line'>That fume of netted drops and subtle laces</div>
+      <div class='line'>And listening statue-air, by men miscall’d?</div>
+      <div class='line'>Shower o’er the blue, and sister of blown surf!</div>
+      <div class='line'>Dream-daughter of the silences of turf!</div>
+      <div class='line'>Couldst thou but waken and recall the Mind</div>
+      <div class='line'>Lifts thee to image, then could I reveal</div>
+      <div class='line'>Wherefore thou seem’st remember’d and I feel</div>
+      <div class='line'>In thee mine own dream risen and divined!</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'>4</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Surely the hymn that charm’d thee from the grass</div>
+      <div class='line'>Fashion’d me also, and the selfsame lyre</div>
+      <div class='line'>Sounded accords that out of darkness pass</div>
+      <div class='line'><span class='pageno' id='Page_62'>62</span>And in thy beauty and my song conspire?</div>
+      <div class='line'>The drum of streets, the fever of our homes,</div>
+      <div class='line'>Clangours and murk metallurgy of gnomes,</div>
+      <div class='line'>All are by thee unheard, who dost ignore</div>
+      <div class='line'>The wisdom of the wise, in dead pasts now</div>
+      <div class='line'>Dungeon’d as never to ascend; but thou</div>
+      <div class='line'>Whose being is for the light, and hath no care</div>
+      <div class='line'>To know itself nor root from whence it sprang,</div>
+      <div class='line'>Wouldst only murmur, in the heavenly air,</div>
+      <div class='line'>“<em>The sun, the sun!</em>” if but thy spirit sang!</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'>5</div>
+    </div>
+    <div class='group'>
+      <div class='line'>O might I show thee by the lute’s devising</div>
+      <div class='line'>Man, from thy soft turf, flown with light, arising!</div>
+      <div class='line'>Him, too, doth hope, the boon without a pang,</div>
+      <div class='line'>Summon with thrilling finger forth to hang—</div>
+      <div class='line'>To cast a heaving soul to the wave of wind,</div>
+      <div class='line'>Sun-passion’d and earth-lodged. Ah, Tree serene</div>
+      <div class='line'>Dilating in the glow of the unseen,</div>
+      <div class='line'>We and our roofs and towers magnifical—</div>
+      <div class='line'>Our Fame’s heroic head against the sky—</div>
+      <div class='line'><span class='pageno' id='Page_63'>63</span>Our loves—and all</div>
+      <div class='line'>That, with our briefness perfect, rise and die,—</div>
+      <div class='line'>Like thee must find</div>
+      <div class='line'>Beauty in a besieging of the dark;</div>
+      <div class='line'>Our glories on expectancy embark,</div>
+      <div class='line'>And the height of our ecstasy—</div>
+      <div class='line'>The touch of infinity—</div>
+      <div class='line'>Is blind.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_64'>64</span>
+  <h2 class='c006'>A CHARGE</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>I</span>f thou hast squander’d years to grave a gem</div>
+      <div class='line in2'>Commission’d by thy absent Lord, and while</div>
+      <div class='line in4'>’Tis incomplete,</div>
+      <div class='line'>Others would bribe thy needy skill to them—</div>
+      <div class='line in4'>Dismiss them to the street!</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Shouldst thou at last discover Beauty’s grove,</div>
+      <div class='line in2'>At last be panting on the fragrant verge,</div>
+      <div class='line in4'>But in the track,</div>
+      <div class='line'>Drunk with divine possession, thou meet Love—</div>
+      <div class='line in4'>Turn, at her bidding, back.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>When round thy ship in tempest Hell appears,</div>
+      <div class='line in2'>And every spectre mutters up more dire</div>
+      <div class='line in4'>To snatch control</div>
+      <div class='line'>And loose to madness thy deep-kennell’d Fears—</div>
+      <div class='line in4'>Then, to the helm, O Soul!</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_65'>65</span>Last; if upon the cold green-mantling sea</div>
+      <div class='line in2'>Thou cling, alone with Truth, to the last spar,</div>
+      <div class='line in4'>Both castaway</div>
+      <div class='line'>And one must perish—let it not be he</div>
+      <div class='line in4'>Whom thou art sworn to obey!</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_66'>66</span>
+  <h2 class='c006'>SONG FOR THE FUNERAL OF A BOY</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line in20'>1</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='c013'>O</span>n stems from silver woods</div>
+      <div class='line in2'>Carry him, young companions, to the glen</div>
+      <div class='line'>Where white Olympus broods;</div>
+      <div class='line in2'>Flushes of rustlers shall precede you then</div>
+      <div class='line in6'>By bush and glade</div>
+      <div class='line in6'>Low-thrilling and afraid;</div>
+      <div class='line in2'>And as along its curve of shore ye pass</div>
+      <div class='line in2'>The dark tarn ruddied with the pine shall glass,</div>
+      <div class='line in2'>Moving to hymns out of its lonely ken,</div>
+      <div class='line in2'>The boy’s light bier, with beaded rushes laid.</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'>2</div>
+    </div>
+    <div class='group'>
+      <div class='line'>In beeches shall the fawn</div>
+      <div class='line in2'>An hoof suspend, to learn from that clear sound</div>
+      <div class='line'>His eager mate withdrawn</div>
+      <div class='line in2'>For ever unto free and sylvan ground.</div>
+      <div class='line in6'><span class='pageno' id='Page_67'>67</span>Up in her hold</div>
+      <div class='line in6'>The wide-wing’d Azure cold</div>
+      <div class='line in2'>Mantling in gyre on gyre shall mark him come</div>
+      <div class='line in2'>By root-paven paths borne, and great bee’s hum</div>
+      <div class='line in2'>Swing through your brief procession, winding round</div>
+      <div class='line in2'>The endless alleys up that Mountain old.</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'>3</div>
+    </div>
+    <div class='group'>
+      <div class='line'>In some low space of green</div>
+      <div class='line in2'>Where fleecy mists, bright runnels newly rain’d,</div>
+      <div class='line'>And springing wands are seen</div>
+      <div class='line in2'>But nothing yet to gnarlëd eld attain’d</div>
+      <div class='line in6'>Let his head nigh</div>
+      <div class='line in6'>The chrisom violet lie;</div>
+      <div class='line in2'>And put at hand the sling to him most dear,</div>
+      <div class='line in2'>The sheaf of arrows light, the dauntless spear,</div>
+      <div class='line in2'>The lute untroubled on the heart unstain’d;</div>
+      <div class='line in2'>Then, taking hands around him, sing good-bye.</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'>4</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Praise limbs that robb’d the cloud</div>
+      <div class='line in2'>Of vengeful eagles, and for this rough nest,</div>
+      <div class='line'><span class='pageno' id='Page_68'>68</span>This egg, embraced the loud</div>
+      <div class='line in2'>And everlasting sea-crag’s salty breast!</div>
+      <div class='line in6'>Praise to the face</div>
+      <div class='line in6'>That smiled on nothing base!</div>
+      <div class='line in2'>Hymn ye the laughter of his happy soul—</div>
+      <div class='line in2'>His secret kindness to your secret dole;</div>
+      <div class='line in2'>The heavenly-minded brook shall mourn him best</div>
+      <div class='line in2'>When ye have kiss’d his cheek, quitting the place.</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'>5</div>
+    </div>
+    <div class='group'>
+      <div class='line'>This ditty from the brake,</div>
+      <div class='line in2'>This rainbow from the waters, fades; and Night</div>
+      <div class='line in2'>That little pyre shall take</div>
+      <div class='line in2'>In flame and cloud;—but O! when the bloom of light</div>
+      <div class='line in6'>With breathless glow</div>
+      <div class='line in6'>Along the tops of snow</div>
+      <div class='line in2'>Tells out to all the valleys Night is done,—</div>
+      <div class='line in2'>Think of the boy, ye young companions bright,</div>
+      <div class='line in2'>Not without joy; for he hath loved and gone</div>
+      <div class='line in2'>As dews that on the uplands shine and go!</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_69'>69</span>
+  <h2 class='c006'>COME, LET US MAKE LOVE DEATHLESS</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>C</span>ome, let us make love deathless, thou and I,</div>
+      <div class='line in2'>Seeing that our footing on the Earth is brief—</div>
+      <div class='line'>Seeing that her multitudes sweep out to die</div>
+      <div class='line in2'>Mocking at all that passes their belief.</div>
+      <div class='line'>For standard of our love not theirs we take:</div>
+      <div class='line in12'>If we go hence to-day</div>
+      <div class='line'>Fill the high cup that is so soon to break</div>
+      <div class='line in12'>With richer wine than they!</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Ay, since beyond these walls no heavens there be</div>
+      <div class='line in2'>Joy to revive or wasted youth repair,</div>
+      <div class='line'>I’ll not bedim the lovely flame in thee</div>
+      <div class='line in2'>Nor sully the sad splendour that we wear.</div>
+      <div class='line'>Great be the love, if with the lover dies</div>
+      <div class='line in12'>Our greatness past recall,</div>
+      <div class='line'>And nobler for the fading of those eyes</div>
+      <div class='line in12'>The world seen once for all.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_70'>70</span>
+  <h2 class='c006'>CLAVIERS AT NIGHT</h2>
+</div>
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><em>I watch’d a white-hair’d Figure like a breeze</em></div>
+      <div class='line'><em>Pass, with a smile, down the bare galleries</em></div>
+      <div class='line'><em>And heard his ancient fingers, as he went,</em></div>
+      <div class='line'><em>Muse on the heart of each blind instrument.</em></div>
+    </div>
+  </div>
+</div>
+
+<h3 class='c012'>SPINET</h3>
+
+<div class='lg-container-b c011'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>S</span>hoaling through twilight to my silver tinglings</div>
+      <div class='line'>The great-ruff’d ladies beset with pearl</div>
+      <div class='line'>Come out with the gallants in gems of Cadiz</div>
+      <div class='line'>In lofty capriols with loud spur-jinglings</div>
+      <div class='line'>In Roman galliard and in blithe coranto</div>
+      <div class='line'>Learnt in far Otranto</div>
+      <div class='line'>Brought home in the galleys of the Earl—</div>
+      <div class='line'>Storm-riding galleys of the haughty Earl—</div>
+      <div class='line'>To English vallies.</div>
+      <div class='line'>They come</div>
+      <div class='line'>With reverences stately at meeting</div>
+      <div class='line'><span class='pageno' id='Page_71'>71</span>In mockeries sedately retreating</div>
+      <div class='line'>And stomachers and buckles and rings</div>
+      <div class='line'>Shake a maze of jewels to the measured strings,</div>
+      <div class='line'>Of trembling jewels.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Ay, moonlight’s fair in yew-clipt alleys,</div>
+      <div class='line'>And young Love fledges</div>
+      <div class='line'>His shafts ’twixt cypress hedges.</div>
+      <div class='line'>Follow the rout, and watch in gentle wind</div>
+      <div class='line'>The springing moonbeam of the fountain sway’d</div>
+      <div class='line'>Like to a mountain maid</div>
+      <div class='line'>Who turns with poisëd jar</div>
+      <div class='line'>From bubbling hollow cool.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Behold, how’t tosses rain of Pleiads hither</div>
+      <div class='line'>Into main blackness of the pool—</div>
+      <div class='line'>Rings ever shimmering out and sheen reborn;</div>
+      <div class='line'>So, thou and I, lady, must die</div>
+      <div class='line'>To wake, as echoes wake, of yonder horn</div>
+      <div class='line'>With <a id='t71'></a>voiceless over the hills of morn.</div>
+      <div class='line'>Ah, satin-quilted kirtle,</div>
+      <div class='line'>Ah, pearled bosom,</div>
+      <div class='line'><span class='pageno' id='Page_72'>72</span>Let slip one flake of blossom,</div>
+      <div class='line'>Deign but a sprig of myrtle,</div>
+      <div class='line'>To the poor Fool, panting on his bended knee!”</div>
+      <div class='line'>But silent grow the long swards cedar-shaded</div>
+      <div class='line'>Where the young loves were sitting;</div>
+      <div class='line'>And lo, in the silver-candled hall</div>
+      <div class='line'>The bat is flitting, flitting.</div>
+      <div class='line'>The tapestries are dusk upon the wall</div>
+      <div class='line'>And the ladies bright, brocaded,</div>
+      <div class='line'>All, with their blushes, faded.</div>
+    </div>
+  </div>
+</div>
+
+<h3 class='c012'>HARPSICHORD</h3>
+
+<div class='lg-container-b c011'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'>Now ye, the delicate patterers of the hush,</div>
+      <div class='line'>Wings, hither!</div>
+      <div class='line'>Scarce-rustlers of the sere involvéd leaf</div>
+      <div class='line'>Who mourn for summers past with elfin grief,</div>
+      <div class='line'>Ye who can hear along the inmost lawn</div>
+      <div class='line'>Ebbings and flowings shrill</div>
+      <div class='line'>When subtle ballads net the rime-cold daffodil</div>
+      <div class='line'>And drift over the blue turf so nigh dumb</div>
+      <div class='line'>They startle not from’s gloom e’en the airy fawn.</div>
+      <div class='line'><span class='pageno' id='Page_73'>73</span>Old Antony on his Nile-barge at dawn</div>
+      <div class='line'>Caught your deck-walkings countless overhead</div>
+      <div class='line'>And eased with ye a heart eclipsed and dead.</div>
+      <div class='line'>Come swift, come soon</div>
+      <div class='line'>Drift, like a veil over the moon,</div>
+      <div class='line'>And rising round this crumbling Keep</div>
+      <div class='line'>Shed ye, upon the sleepless, sleep.</div>
+    </div>
+  </div>
+</div>
+
+<h3 class='c012'>CLAVICHORD</h3>
+
+<div class='lg-container-b c011'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'>Wherefore, poor Fool, dost lie—</div>
+      <div class='line'>Love, cap and bells put by—</div>
+      <div class='line'>On thy pallet-bed so stark?</div>
+      <div class='line'>“I am girt, soul and limb,</div>
+      <div class='line'>Gainst horror dim.</div>
+      <div class='line'>Ear tense to hark</div>
+      <div class='line'>Mine eyeballs strain and swim</div>
+      <div class='line'>Drowning in foamy dark.</div>
+      <div class='line'>Comes no shock</div>
+      <div class='line'>Nor earthly feet</div>
+      <div class='line'>But the heart’s blood, ebb’d with the chill tower-clock</div>
+      <div class='line'><span class='pageno' id='Page_74'>74</span>To a single beat,</div>
+      <div class='line'>Clots to a fear</div>
+      <div class='line'>That God may appear—</div>
+      <div class='line'>None other eye being near—</div>
+      <div class='line'>And bare of his mantle of law</div>
+      <div class='line'>Stand, a giant Spirit beautiful</div>
+      <div class='line'>Sombre, pale, in avenging mail,</div>
+      <div class='line'>Wings folded, on this planet’s skull;</div>
+      <div class='line'>And before Him dropping like fine rain,</div>
+      <div class='line'>A veil o’ the cloud o’ the dust of kings</div>
+      <div class='line'>Noiseless descending the old Abyss&#160;...</div>
+      <div class='line'>Ah then, after this</div>
+      <div class='line'>How gentle through the dark paths of the brain</div>
+      <div class='line'>Comes the faint noise of outer things;</div>
+      <div class='line'>The whirr and shower of wings—</div>
+      <div class='line'>Satin shufflings of ivy leaves</div>
+      <div class='line'>Ranging like bees the leaden pane—</div>
+      <div class='line'>Jolting of carters, cries of falconers—</div>
+      <div class='line'>The blessed courtyard stirs</div>
+      <div class='line'>That do in mercy say</div>
+      <div class='line'>Thou hast another day.”</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_75'>75</span>
+  <h2 class='c006'>THE MAN DIGGING</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>T</span>he isle was barren. Far as hawk may scan</div>
+      <div class='line'>In moors it roll’d up to a headland bare</div>
+      <div class='line'>Save for one narrow patch, by ceaseless care</div>
+      <div class='line'>Sumptuous with corn. Against the sky a Man</div>
+      <div class='line'>Digging the waste I saw,—bow’d veteran</div>
+      <div class='line'>A stubborn spade he drave in stubborn ground</div>
+      <div class='line'>And root and rock flung sheer without a sound</div>
+      <div class='line'>Over the bleak edge.... Then anew began.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“You, who have lodged in the teeth of the abyss</div>
+      <div class='line'>Your cabin low, and triumph rich as this</div>
+      <div class='line'>Wrung from the ocean-bitter mountain side,</div>
+      <div class='line'>What help’d you most to bring such treasure out?”</div>
+      <div class='line'>He stood, and after scrutiny replied,</div>
+      <div class='line'>“The thing on which I lean, the Spade of Doubt.”</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_76'>76</span>
+  <h2 class='c006'>SCHIEHALLION</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>F</span>ar the grey loch runs</div>
+      <div class='line in2'>Up to Schiehallion.</div>
+      <div class='line'>Lap, lap the water flows</div>
+      <div class='line'>Where my wee boatie rows;</div>
+      <div class='line'>Greenly a star shows</div>
+      <div class='line in2'>Over Schiehallion.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>She that I wander’d wi’</div>
+      <div class='line in2'>Over Schiehallion,—</div>
+      <div class='line'>How far ayont your ken,</div>
+      <div class='line'>Crags of the merry glen,</div>
+      <div class='line'>Stray’d she, that wander’d then</div>
+      <div class='line in2'>Down fra Schiehallion!</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Sail of the wild swan</div>
+      <div class='line in2'>Turn to Schiehallion!</div>
+      <div class='line'><span class='pageno' id='Page_77'>77</span>Here where the rushes rise</div>
+      <div class='line'>Low the black hunter lies;</div>
+      <div class='line'>Beat thou the pure skies</div>
+      <div class='line in2'>Back to Schiehallion!</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_78'>78</span>
+  <h2 class='c006'>THE SHELL</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>I</span> am a Shell out of the Asian sea,</div>
+      <div class='line in2'>But my sad Pearl is gone,</div>
+      <div class='line'>Risen to be Goddess—Venus green is she</div>
+      <div class='line in2'>And I cast up alone.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Yet some night shall her brilliance stoop and take</div>
+      <div class='line in2'>Unto her ear this shell,</div>
+      <div class='line'>And hear the whisper of her own heart-break&#160;...</div>
+      <div class='line in2'>All that I serve to tell.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_79'>79</span>
+  <h2 class='c006'>THE ROCK OF CLOUD</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>W</span>e heard a chanting in the fog</div>
+      <div class='line in2'>On the frore face of the sea,</div>
+      <div class='line'>And stay’d the galley like a log</div>
+      <div class='line in2'>To sound that mystery.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And men throng’d up into the bow</div>
+      <div class='line in2'>And hail’d the curling rack,</div>
+      <div class='line'>“<em>What demon or what spirit thou?</em>”</div>
+      <div class='line in2'>And the lone voice came back,</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Came as of one so evil-starr’d</div>
+      <div class='line in2'>That he hath done with grief,</div>
+      <div class='line'>In monotone as keen and hard</div>
+      <div class='line in2'>As the bell swung from a reef:</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Human I am—would I were foam—</div>
+      <div class='line in2'>Row hither; ye may hear</div>
+      <div class='line'><span class='pageno' id='Page_80'>80</span>Yet shall not save nor bring me home</div>
+      <div class='line in2'>Seek ye a thousand year.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“<em>Keep a stout hope.</em>” “I keep no hope.”</div>
+      <div class='line in2'>“<em>Man alive</em>” “Spare your toil—”</div>
+      <div class='line'>“<em>We are upon thee!</em>” “Nay, no rope</div>
+      <div class='line in2'>Over the gap shall coil.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“<em>Who art thou?</em>” “I was Pilot once</div>
+      <div class='line in2'>On many a ship of mark:</div>
+      <div class='line'>Went aboard—spoke to none—but steer’d;</div>
+      <div class='line in2'>And dropt off in the dark.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“But one night—Christ!—we struck—we sank.</div>
+      <div class='line in2'>I reach’d this rock of wings</div>
+      <div class='line'>Whereby from every boulder’s flank</div>
+      <div class='line in2'>The brown sea-ribbon swings.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Here, where the sole eye of the Sun</div>
+      <div class='line in2'>Did scorch my body bare,</div>
+      <div class='line'>A great Sea-Spirit rose, and shone</div>
+      <div class='line in2'>In the water thrill’d with hair....</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_81'>81</span>“She lay back on the green abyss</div>
+      <div class='line in2'>Beautiful; her spread arms</div>
+      <div class='line'>Soothed to a poise—a sob—of bliss</div>
+      <div class='line in2'>Huge thunders and alarms.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Her breasts as pearl were dull and pure,</div>
+      <div class='line in2'>Her body’s chasted light</div>
+      <div class='line'>Swam like a cloud; her eyes unsure</div>
+      <div class='line in2'>From the great depths were bright.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“There was no thing of bitterness</div>
+      <div class='line in2'>In aught that she could say;</div>
+      <div class='line'>She call’d my soul, as down a coast</div>
+      <div class='line in2'>The Moon calls bay beyond bay</div>
+      <div class='line'>And they rise—back o’ the uttermost—</div>
+      <div class='line in2'>Away, and yet away:—</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“‘I chose thee from the sinking crews—</div>
+      <div class='line in2'>I bore thee up alive—</div>
+      <div class='line'>Now durst thou follow me and choose</div>
+      <div class='line in2'>Under the world to dive?</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_82'>82</span>“‘Come! we will catch when stars are out</div>
+      <div class='line in2'>The black wave’s spitting crest</div>
+      <div class='line'>And still, when the Bull of Dawn shall spout,</div>
+      <div class='line in2'>Be washing on abreast;</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“‘Or thee a flame under the seas</div>
+      <div class='line in2'>Paven with suns I’ll hide,</div>
+      <div class='line'>Deathless and boundless and at ease</div>
+      <div class='line in2'>In any shape to glide.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“‘All waters that on Earth have well’d</div>
+      <div class='line in2'>At last to me repair,—</div>
+      <div class='line'>All mountains starr’d with cities melt</div>
+      <div class='line in2'>Into my dreamy air.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“‘Set on thy peak under the brink</div>
+      <div class='line in2'>I’ll shew thee Storms above,</div>
+      <div class='line'>The stuff of kingdoms:—they shall sink</div>
+      <div class='line in2'>While thou dost teach me love;</div>
+      <div class='line'>On beaches white as the young Moons</div>
+      <div class='line in2'>I’ll sit, and fathom love.’”...</div>
+    </div>
+    <div class='group'>
+      <div class='line'>       ·       ·       ·       ·       ·</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_83'>83</span>“<em>And what saidst thou?</em>” “From over sea</div>
+      <div class='line in2'>I felt a sighing burn</div>
+      <div class='line'>That made this jagg’d rock seem to me</div>
+      <div class='line in2'>More delicate than fern;</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“And faint as moth-wings I could hear</div>
+      <div class='line in2'>Tops of the pine-tree sway</div>
+      <div class='line'>And the last words spoken in mine ear</div>
+      <div class='line in2'>Before the break of day.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“And I cried out agonied at heart</div>
+      <div class='line in2'>For her that sleeps at home,</div>
+      <div class='line'>‘Brightness, I will not know thine art,</div>
+      <div class='line in2'>Nor to thy country come!’</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Straightway she sank—smiling so pale—</div>
+      <div class='line in2'>But from the seethe up-broke—</div>
+      <div class='line'>Never thrash’d off by gust or gale—</div>
+      <div class='line in2'>White, everlasting smoke.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“It feels all over me with stealth</div>
+      <div class='line in2'>Of languor that appals;</div>
+      <div class='line'><span class='pageno' id='Page_84'>84</span>It laps my fierce heart in a wealth</div>
+      <div class='line in2'>Of soft and rolling walls;</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“This mist no life may pass, save these</div>
+      <div class='line in2'>Wave-wing’d, with shrieking voice;</div>
+      <div class='line'>Stars I discern not, nor the seas—”</div>
+      <div class='line in2'>“<em>O, dost not rue thy choice?</em>”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>“Rue it? Now get back to the Deep,</div>
+      <div class='line in2'>For I doubt if men ye be:</div>
+      <div class='line'>No;—I must keep a steady helm</div>
+      <div class='line in2'>By the star I cannot see.”</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Passion o’ man! we sprang to oars,</div>
+      <div class='line in2'>And sought on, weeping loud,</div>
+      <div class='line'>All night in earshot of the shores</div>
+      <div class='line in2'>But never through the cloud.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_85'>85</span>
+  <h2 class='c006'>SHE COMES NOT WHEN NOON IS ON THE ROSES</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>S</span>he comes not when Noon is on the roses—</div>
+      <div class='line in8'>Too bright is Day.</div>
+      <div class='line'>She comes not to the Soul till it reposes</div>
+      <div class='line in8'>From work and play.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>But when Night is on the hills, and the great Voices</div>
+      <div class='line in8'>Roll in from Sea,</div>
+      <div class='line'>By starlight and by candlelight and dreamlight</div>
+      <div class='line in8'>She comes to me.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_86'>86</span>
+  <h2 class='c006'>THE NIGHT</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>I</span> put aside the branches</div>
+      <div class='line in2'>That clothe the Door in gloom;</div>
+      <div class='line'>A glow-worm lit the pathway</div>
+      <div class='line in2'>And a lamp out of her room</div>
+      <div class='line'>Shook down a stifled greeting:</div>
+      <div class='line in2'>How could it greet aright</div>
+      <div class='line'>The thirst of years like deserts</div>
+      <div class='line in2'>That led up to this night?</div>
+    </div>
+    <div class='group'>
+      <div class='line'>But she, like sighing forests,</div>
+      <div class='line in2'>Stole on me—full of rest,</div>
+      <div class='line'>Her hair was like the sea’s wave,</div>
+      <div class='line in2'>Whiteness was in her breast,—</div>
+      <div class='line'>(<em>So does one come, at night, upon a wall of roses.</em>)</div>
+    </div>
+    <div class='group'>
+      <div class='line'>As in a stone of crystal</div>
+      <div class='line in2'>The cloudy web and flaw</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_87'>87</span>Turns, at a flash, to rainbows,</div>
+      <div class='line'>Wing’d I became—I saw</div>
+      <div class='line'>I sang;—but human singing</div>
+      <div class='line'>Ceased, in a burning awe.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Slow, amid leaves, in silence—</div>
+      <div class='line'>Rapt as the holy pray—</div>
+      <div class='line'>Flame into flame we trembled</div>
+      <div class='line'>And the world sank away.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_88'>88</span>
+  <h2 class='c006'>MAURYA’S SONG</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>R</span>ushes that grow by the black water</div>
+      <div class='line'>When will I see you more?</div>
+      <div class='line'>When will the sorrowful heart forget you,</div>
+      <div class='line'>Land of the green, green shore?</div>
+      <div class='line'>When will the field and the small cabin</div>
+      <div class='line in10'>See us more</div>
+      <div class='line in10'>In the old country?</div>
+    </div>
+    <div class='group'>
+      <div class='line'>What is to me all the gold yonder?</div>
+      <div class='line'>She that bore me is gone.</div>
+      <div class='line'>Knees that dandled and hands that blessed me</div>
+      <div class='line'>Colder than any stone;</div>
+      <div class='line'>Stranger to me than the face of strangers</div>
+      <div class='line in10'>Are my own</div>
+      <div class='line in10'>In the old country.</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_89'>89</span>Vein o’ my heart, from the lone mountain</div>
+      <div class='line'>The smoke of the turf will die</div>
+      <div class='line'>And the stream that sang to the young childer</div>
+      <div class='line'>Run down alone from the sky:</div>
+      <div class='line'>On the door-stone, grass,—and the cloud lying</div>
+      <div class='line in10'>Where they lie</div>
+      <div class='line in10'>In the old country.</div>
+    </div>
+  </div>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='pageno' id='Page_90'>90</span><span class='c013'>T</span>ired with the day’s monotony of dreaméd joys</div>
+      <div class='line'>I turn to a requickening voice,</div>
+      <div class='line'>A voice whose low tone devastates with nightly thrill</div>
+      <div class='line'>The cities I have wrought at will:</div>
+      <div class='line'>Stone forts depart, and armies heroic flee away</div>
+      <div class='line'>Like the wild snow of spray.</div>
+      <div class='line'>Deep down the green Broceliande’s branch’d corridors</div>
+      <div class='line'>That voice of April pours;</div>
+      <div class='line'>Light as a bird’s light shadow fled across my pages</div>
+      <div class='line'>A touch disturbs the ages,</div>
+      <div class='line'>And the crags and spears of Troy and the courts of Charlemain,</div>
+      <div class='line'>Odin, and the splendid strain</div>
+      <div class='line'>Of Cuchullain’s self, that with his heart’s high brother strove,—</div>
+      <div class='line'>Fade, at the low voice I love.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_91'>91</span>
+  <h2 class='c006'>YOU WERE STAY’D</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>Y</span>ou were stay’d in heart on heaven,</div>
+      <div class='line'>I by none but you forgiven,—</div>
+      <div class='line'>You unto your Light are taken,</div>
+      <div class='line'>I of all, in you, forsaken.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Where the night is never broken</div>
+      <div class='line'>Where for long no speech hath spoken,</div>
+      <div class='line'>There the ears no longer hearken,</div>
+      <div class='line'>There the eyeballs wane and darken.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Yet at hours my soul—so bounded—</div>
+      <div class='line'>By that gloom like blood surrounded—</div>
+      <div class='line'>Sees in ancient daylight burning—</div>
+      <div class='line'>Hears departed feet returning.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_92'>92</span>
+  <h2 class='c006'>THE BLOOM</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>W</span>ho are these ancients, gnarl’d and moss’d and weigh’d</div>
+      <div class='line in2'>This way and that, under the sluggard blue</div>
+      <div class='line'>And shine of morning—these whose arms are laid</div>
+      <div class='line in2'>Low to the grasses and the sheets of dew—</div>
+      <div class='line'>These bowers ruggëd within and thickly knit</div>
+      <div class='line in2'>But feather’d over with a roseate white</div>
+      <div class='line'>So frail that the breeze’s touch dismantles it</div>
+      <div class='line in2'>And brings from cradled nurseries in flight—</div>
+      <div class='line in6'>Snow-soft—the petals down</div>
+      <div class='line in6'>In shadows green to drown?</div>
+    </div>
+    <div class='group'>
+      <div class='line'>We are the matrons. Bent are we and riven</div>
+      <div class='line in2'>Under such years of ripeness manifold</div>
+      <div class='line'>That unto us a special grace is given,—</div>
+      <div class='line in2'>To wear a virgin’s beauty being old.</div>
+      <div class='line'><span class='pageno' id='Page_93'>93</span>Noiseless we wear it; round us in the croft</div>
+      <div class='line in2'>These whisperers are leaves of other trees,</div>
+      <div class='line'>Babblers that have not learn’d by fruitage oft</div>
+      <div class='line in2'>To shade the heart with wide serenities</div>
+      <div class='line in6'>On tendons knit to bear</div>
+      <div class='line in6'>Sweetness in stormy air.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_94'>94</span>
+  <h2 class='c006'>IN THE ROMAN AMPHITHEATRE, VERONA</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>T</span>wo architects of Italy—austere</div>
+      <div class='line'>Men who could fashion nothing small—refused</div>
+      <div class='line'>To die with life, and for their purpose used</div>
+      <div class='line'>This dim and topless Amphitheatre.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Some Cæsar trench’d the orb of its ellipse</div>
+      <div class='line'>And call’d on distant provinces to swell</div>
+      <div class='line'>Resonant arches whence his World could scan,</div>
+      <div class='line'>Tier above tier, the fighters and the ships.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>But Dante—having raised, as dreamer can,</div>
+      <div class='line'>Higher tenfold these walls immutable—</div>
+      <div class='line'>Sole in the night arena, grew aware</div>
+      <div class='line'>He was himself the thing spectacular</div>
+      <div class='line'>Seized by the ever-thirsting gaze of Hell,—</div>
+      <div class='line'>Here, on the empty sand, a banish’d man.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_95'>95</span>
+  <h2 class='c006'>A WINTER SONG</h2>
+</div>
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><em>To Alice Meynell</em></div>
+    </div>
+  </div>
+</div>
+
+<div class='lg-container-b c011'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>L</span>ady, through grasses stiff with rime</div>
+      <div class='line in2'>And wraith-hung trees I wander</div>
+      <div class='line'>Where the red sun at pitch of prime</div>
+      <div class='line in2'>Half of his might must squander;</div>
+      <div class='line in6'>Narrow the track</div>
+      <div class='line in6'>As I look back</div>
+      <div class='line in6'>On traces green behind me,—</div>
+      <div class='line in6'>I go alone</div>
+      <div class='line in6'>To think upon</div>
+      <div class='line in6'>A face, where none</div>
+      <div class='line in6'>Shall find me.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Birds peal; but each grim grove its shroud</div>
+      <div class='line in2'>Retains, as to betoken</div>
+      <div class='line'>Though the young lawn should wave off cloud</div>
+      <div class='line in2'>These would have Night unbroken,—</div>
+      <div class='line in6'><span class='pageno' id='Page_96'>96</span>Desire no plash</div>
+      <div class='line in6'>Of the Lake awash—</div>
+      <div class='line in6'>No gold but gold that’s glinted</div>
+      <div class='line in6'>In still device</div>
+      <div class='line in6'>From the breast of ice</div>
+      <div class='line in6'>Whose summer cries</div>
+      <div class='line in6'>Have stinted.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>But in a great and glittering space</div>
+      <div class='line in2'>The black Elm doth restore me</div>
+      <div class='line'>To you. Empower’d with patient grace</div>
+      <div class='line in2'>Musing she stands before me,—</div>
+      <div class='line in6'>Her webs divine</div>
+      <div class='line in6'>Ghosted with fine</div>
+      <div class='line in6'>Remembrance few can capture;</div>
+      <div class='line in6'>Her very shade</div>
+      <div class='line in6'>On greenness laid</div>
+      <div class='line in6'>Is white,—is made</div>
+      <div class='line in6'>Of rapture!</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_97'>97</span>
+  <h2 class='c006'>THE NUTTER</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line in20'>1</div>
+    </div>
+    <div class='group'>
+      <div class='line'><span class='c013'>I</span> am the Autumn. Rising from the throne</div>
+      <div class='line in2'>I watch the pageant of my courtiers pass;</div>
+      <div class='line'>Chestnuts’ canary-feather’d beauty strown—</div>
+      <div class='line in2'>The lime’s gold tribute at his foot amass—</div>
+      <div class='line'>Then fragile jewels from the larches blown</div>
+      <div class='line in2'>Enrich with disarray the trembling grass,</div>
+      <div class='line'>Until the beggar’d elms, too proud to bend,</div>
+      <div class='line'>Emblaze a hundred winds with my rash kingdom’s end.</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'><span class='pageno' id='Page_98'>98</span>2</div>
+    </div>
+    <div class='group'>
+      <div class='line'>But look! within the beech’s burning house</div>
+      <div class='line in2'>Some Nutter, deaf to shouts of fellow-thieves,</div>
+      <div class='line'>Hath flung him with his crook to dream and drowse</div>
+      <div class='line in2'>Flush-cheek’d, alone, upon the mounded leaves.</div>
+      <div class='line'>The curious squirrel headlong from his eaves</div>
+      <div class='line in2'>Creeps down to mark: then drops with sudden souse;</div>
+      <div class='line'>The still-come culvers burst away—and flits</div>
+      <div class='line'>The beechmast-feasting multitude of shadowy tits.</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'>3</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Where are thy friends? Gone on to sack the glades,</div>
+      <div class='line in2'>My rooms of tatter’d state, not to return.</div>
+      <div class='line'>No moth-bright brambles and no rainy braids</div>
+      <div class='line in2'>Of ivy, mid the sheen and smoke of fern,</div>
+      <div class='line'>Could trammel-up the tempest of their raids.</div>
+      <div class='line in2'>Up, boy! pursue them down the misty burn!</div>
+      <div class='line'>But on his bosom tann’d, in slumber fast,</div>
+      <div class='line'>Patter’d the mimic shower of ever-dropping mast.</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'><span class='pageno' id='Page_99'>99</span>4</div>
+    </div>
+    <div class='group'>
+      <div class='line'>What, lad? The last of my poor banquet lose</div>
+      <div class='line in2'>To thy wild kin of air? For them the dell</div>
+      <div class='line'>O’er-briar’d hath lean rose-berries and yews</div>
+      <div class='line in2'>And scarlet fruits of ash, that ere they swell</div>
+      <div class='line'>The missel-thrushes, fluttering, poise to choose,—</div>
+      <div class='line in2'>Privet is theirs and briony as well,</div>
+      <div class='line'>And redwings wait for the frost-mellow’d sloe,</div>
+      <div class='line'>Their orchard is the spinney-side—Awake, and go!</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'>5</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Leaf-driven, my young October in a while</div>
+      <div class='line in2'>Awoke bemazed—on ragged knee arose</div>
+      <div class='line'>Snatch’d at his crook, and hid a shaméd smile</div>
+      <div class='line in2'>Vaulting the ruddy brambles. As he goes</div>
+      <div class='line in2'>Far off I hear his voice; so freshet flows</div>
+      <div class='line'>Warbling to wander many a forest mile—</div>
+      <div class='line in2'>So Dryad may her rooty pool forsake</div>
+      <div class='line in2'>Afraid, or antler’d shadow melt into the brake.</div>
+    </div>
+    <div class='group'>
+ <div class='line in20 c005'><span class='pageno' id='Page_100'>100</span>6</div>
+    </div>
+    <div class='group'>
+      <div class='line'>And I go too,—ah! not with mortal things</div>
+      <div class='line in2'>Naked of riches here to flutter down—</div>
+      <div class='line'>But soar and tremble in a million wings</div>
+      <div class='line in2'>Above the fen, the coastland, and the town</div>
+      <div class='line in2'>Forth by the dark sea’s sunken islands boune</div>
+      <div class='line'>Sweeping to choir Apollo where he sings</div>
+      <div class='line in2'>Unslain! The midsea lamp, that hears the sky</div>
+      <div class='line in2'>Roaring all night with passage, knows that it is I.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_101'>101</span>
+  <h2 class='c006'>SHAKESPEARE</h2>
+</div>
+
+<div class='lg-container-b c016'>
+  <div class='linegroup'>
+    <div class='group'>
+      <div class='line'><span class='c013'>I</span>f many a daring spirit must discover</div>
+      <div class='line'>The chartless world, why should they glory lack?</div>
+      <div class='line'>Because athwart the skyline they sank over</div>
+      <div class='line'>Few, few, the shipmen be that have come back.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Yet one, wreck’d oft, hath by a giddy cord</div>
+      <div class='line'>The rugged head of Destiny regain’d—</div>
+      <div class='line'>One from the maelstrom’s lap hath swum aboard—</div>
+      <div class='line'>One from the polar sleep himself unchain’d.</div>
+    </div>
+    <div class='group'>
+      <div class='line'>But he, acquainted well with every tone</div>
+      <div class='line'>Of madness whining in his shroudage slender,</div>
+      <div class='line'>From storm and mutiny emerged alone</div>
+      <div class='line'>Self-righted from the dreadful self-surrender:</div>
+    </div>
+    <div class='group'>
+      <div class='line'>Rich from the isles where sojourn long is death</div>
+      <div class='line'>Won back to cool Thames and Elizabeth,</div>
+      <div class='line'>Sea-weary, yes, but human still, and whole,—</div>
+      <div class='line'>A circumnavigator of the soul.</div>
+    </div>
+  </div>
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_104'>104</span>
+  <h2 class='c006'>NOTES</h2>
+</div>
+
+<p class='c017'><cite>Deirdre Wed.</cite> This episode of thirty hours, delivered by
+the Three Voices, does not occur in any of the versions of
+the famous “Tragical tale of the Sons of Usnach.” But the
+manner of Deirdre’s wooing of Naois is based on an incident
+in a Gaelic version of that tale, in which, on a day (not her
+marriage day) Deirdre and her women companions “were
+out on the hillock behind the house enjoying the scene and
+drinking in the sun’s heat. What did they see coming but
+three men a-journeying. Deirdre was looking at the men
+that were coming, and wondering at them. When the men
+neared them, Deirdre remembered the language of the huntsmen
+and she said to herself that these were the three sons of
+Usnach, and that this was Naois, he having what was above
+the bend of his two shoulders above the men of Erin all.”
+The three brothers went past without taking any notice of
+them, and without even glancing at the young girls on the
+hillock. “What happened but that love for Naois struck the
+heart of Deirdre, so that she could not but follow after him.
+She trussed her raiment and went after the three men that
+went past the base of the knoll, leaving her women attendants
+there. Aillean and Ardan had heard of the women that
+Connachar, King of Ulster, had with him, and they thought
+that if Naois their brother saw her he would have her himself,
+more especially as she was not married to the king.”
+They perceived the woman coming and called on one another
+to hasten their steps as they had a long distance to travel
+<span class='pageno' id='Page_105'>105</span>and the dusk of night was coming on. They did so. She
+cried three times “Naois, son of Usnach, wilt thou leave
+me?” “What cry is that which it is not well for me to
+answer, and not easy for me to refuse?” Twice the brothers
+put him off with excuses. “But the third time Naois and
+Deirdre met, and Deirdre kissed Naois three times and a
+kiss to each of his brothers.” All other incidents in the
+episodic poem <em>Deirdre Wed</em> are new.</p>
+
+<p class='c015'><em>Fintan</em>; <em>Urmael</em>; <em>Cir</em>. These were old bards. I have
+myself found and explored a tomb like that of Cir, caverned
+through a hill-ridge, not far from Eman and Armagh, just
+as it is described in the poem. But the curious may rediscover
+it for themselves.</p>
+
+<p class='c015'><em>Connachar.</em> This king, or terrestrial divinity, is generally
+known as Conchobar, or Conor, King of Ulster (Uladh) and
+Arch-King of Ireland. He is chronicled as reigning about
+the time of the Incarnation of Christ.</p>
+
+<p class='c015'><em>Eman</em>, or Emain Macha, was the chief palace of Connachar.
+It is still seen and named in the “Navan Ring”—enormous
+earthworks on a hill about two miles west of Armagh. The
+people from the town and country side still go up to dance
+there on holidays. Traces of the Lake of Pearls—where
+jewels were cast in on a sudden flight, lie in a marsh under
+Eman. The <em>Callan</em>, or “loud-sounding” river, runs not very
+far off.</p>
+
+<p class='c015'><em>Dun Aengus.</em> A prehistoric stone fortress—singularly
+vast—on the edge of the cliffs of Arran Môr, an island in
+the Atlantic, west of Galway. The walls are very massive,
+and lie half-circle-wise, as if half had broken off and fallen
+into the sea.</p>
+
+<div class='nf-center-c0'>
+<div class='nf-center c001'>
+    <div><span class='pageno' id='Page_106'>106</span><span class='small'>PRINTED BY</span></div>
+    <div><span class='small'>TURNBULL AND SPEARS,</span></div>
+    <div><span class='small'>EDINBURGH</span></div>
+  </div>
+</div>
+
+<div class='pbb'>
+ <hr class='pb c002'>
+</div>
+<div class='tnotes x-ebookmaker'>
+
+<div class='chapter ph2'>
+
+<div class='nf-center-c0'>
+<div class='nf-center c001'>
+    <div>TRANSCRIBER’S NOTES</div>
+  </div>
+</div>
+
+</div>
+
+<table class='table0'>
+  <tr>
+    <th class='c018'>Page</th>
+    <th class='c018'>Changed from</th>
+    <th class='c019'>Changed to</th>
+  </tr>
+  <tr>
+    <td class='c020'><a href='#t71'>71</a></td>
+    <td class='c021'>With volcelest over the hills of morn</td>
+    <td class='c022'>With voiceless over the hills of morn</td>
+  </tr>
+</table>
+
+  <ul  class='ul_1'>
+    <li>Typos fixed; non-standard spelling and dialect retained.
+    </li>
+  </ul>
+
+</div>
+
+<div style='text-align:center'>*** END OF THE PROJECT GUTENBERG EBOOK 75529 ***</div>
+  </body>
+  <!-- created with ppgen.py 3.57e (with regex) on 2025-02-11 22:00:06 GMT -->
+</html>
+
