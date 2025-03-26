@@ -1,5 +1,8 @@
 _repo: Deirdre-wed-and-other-poems_75529
 _version: 0.1.0
+covers:
+- cover_type: archival
+  image_path: 75529-h/images/cover.jpg
 creator:
   author:
     agent_name: Trench, Herbert
@@ -9,6 +12,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/43814
     wikipedia: https://en.wikipedia.org/wiki/Herbert_Trench
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/75529#Deirdre-wed-and-other-poems
 gutenberg_issued: '2025-03-04'
 gutenberg_type: Text
 identifiers:
